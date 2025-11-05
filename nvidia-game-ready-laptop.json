@@ -14,6 +14,17 @@
       "sha256sum": "0A08462764F4D36EEECB8DA6ABFC01A6E32C94359B9E1E3287399F057C1D2839"
     },
     {
+      "version": "581.57",
+      "type": "WHQL",
+      "releaseDate": "Oct 14, 2025",
+      "downloadUrl": "https://us.download.nvidia.com/Windows/581.57/581.57-notebook-win10-win11-64bit-international-dch-whql.exe",
+      "redditUrl": "https://redd.it/1o6dpc1",
+      "hasWarning": false,
+      "isStable": false,
+      "stabilityGrade": null,
+      "sha256sum": "C18887EE37A5D3AEC58DB83C2057C199E81143FEF0FA99121528E4D319339D7E"
+    },
+    {
       "version": "581.42",
       "type": "WHQL",
       "releaseDate": "Sep 30, 2025",
