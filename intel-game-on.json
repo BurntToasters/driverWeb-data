@@ -1,224 +1,1297 @@
 {
-  "lastUpdated": "11-23-25",
+  "lastUpdated": "02-25-26",
   "warningMessage": null,
   "drivers": [
     {
-      "version": "32.0.101.8250",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "D902CA73F470E88AF606F96B125E62079264FA7D9D41B352C895CAC4C3655C94"
+      },
+      "downloadUrl": "https://downloadmirror.intel.com/874366/gfx_win_101.8531.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [],
+      "id": "intel|graphics|game-on|32-0-101-8531|20260225",
+      "isStable": false,
+      "issueTags": [
+        "known-issues"
+      ],
+      "knownIssuesUrl": "https://www.intel.com/content/www/us/en/download/785597/intel-arc-graphics-windows.html",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2026-02-25T08:00:00.000Z",
+      "redditUrl": "https://redd.it/1rewkkh",
+      "releaseDate": "Feb 25, 2026",
+      "releaseDateIso": "2026-02-25",
+      "releaseNotesUrl": "https://www.intel.com/content/www/us/en/download/785597/intel-arc-graphics-windows.html",
+      "riskLevel": "medium",
+      "sha256sum": "D902CA73F470E88AF606F96B125E62079264FA7D9D41B352C895CAC4C3655C94",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/874366/gfx_win_101.8531.exe"
+        },
+        {
+          "type": "release-notes",
+          "url": "https://www.intel.com/content/www/us/en/download/785597/intel-arc-graphics-windows.html"
+        },
+        {
+          "type": "known-issues",
+          "url": "https://www.intel.com/content/www/us/en/download/785597/intel-arc-graphics-windows.html"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1rewkkh"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
       "type": "",
-      "releaseDate": "Nov 11, 2025",
+      "vendor": "intel",
+      "version": "32.0.101.8531",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "EC3123DEE34B8B1FF5E73D83D370B36914CFC3D0D19C5B7923B7DE5250B9F5CA"
+      },
+      "downloadUrl": "https://downloadmirror.intel.com/874365/gfx_win_101.8509.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL"
+      ],
+      "id": "intel|graphics|game-on|32-0-101-8509|whql|20260213",
+      "isStable": false,
+      "issueTags": [
+        "known-issues"
+      ],
+      "knownIssuesUrl": "https://www.intel.com/content/www/us/en/download/785597/874365/intel-arc-graphics-windows.html",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2026-02-13T08:00:00.000Z",
+      "redditUrl": "",
+      "releaseDate": "Feb 13, 2026",
+      "releaseDateIso": "2026-02-13",
+      "releaseNotesUrl": "https://www.intel.com/content/www/us/en/download/785597/874365/intel-arc-graphics-windows.html",
+      "riskLevel": "medium",
+      "sha256sum": "EC3123DEE34B8B1FF5E73D83D370B36914CFC3D0D19C5B7923B7DE5250B9F5CA",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/874365/gfx_win_101.8509.exe"
+        },
+        {
+          "type": "release-notes",
+          "url": "https://www.intel.com/content/www/us/en/download/785597/874365/intel-arc-graphics-windows.html"
+        },
+        {
+          "type": "known-issues",
+          "url": "https://www.intel.com/content/www/us/en/download/785597/874365/intel-arc-graphics-windows.html"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "intel",
+      "version": "32.0.101.8509",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "2E6C6A7D9734D18FC890811A781EE14B4403C2CB33926E3DC6F274D93337BEDF"
+      },
+      "downloadUrl": "https://downloadmirror.intel.com/873358/gfx_win_101.8425_101.8362.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL"
+      ],
+      "id": "intel|graphics|game-on|32-0-101-8425-32-0-101-8362|whql|20260101",
+      "isStable": false,
+      "issueTags": [
+        "known-issues"
+      ],
+      "knownIssuesUrl": "https://www.intel.com/content/www/us/en/download/785597/873358/intel-arc-graphics-windows.html",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2026-01-01T08:00:00.000Z",
+      "redditUrl": "https://redd.it/1qnz8va",
+      "releaseDate": "Jan 1, 2026",
+      "releaseDateIso": "2026-01-01",
+      "releaseNotesUrl": "https://www.intel.com/content/www/us/en/download/785597/873358/intel-arc-graphics-windows.html",
+      "riskLevel": "medium",
+      "sha256sum": "2E6C6A7D9734D18FC890811A781EE14B4403C2CB33926E3DC6F274D93337BEDF",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/873358/gfx_win_101.8425_101.8362.exe"
+        },
+        {
+          "type": "release-notes",
+          "url": "https://www.intel.com/content/www/us/en/download/785597/873358/intel-arc-graphics-windows.html"
+        },
+        {
+          "type": "known-issues",
+          "url": "https://www.intel.com/content/www/us/en/download/785597/873358/intel-arc-graphics-windows.html"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1qnz8va"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "intel",
+      "version": "32.0.101.8425/32.0.101.8362",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "3A66307EEBBDE7FDA8BAA05AD4AE4A78BF6D0587C48B78C8353D0701CB510950"
+      },
+      "downloadUrl": "https://downloadmirror.intel.com/870567/gfx_win_101.8331.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL"
+      ],
+      "id": "intel|graphics|game-on|32-0-101-8331|whql|20251203",
+      "isStable": false,
+      "issueTags": [
+        "known-issues"
+      ],
+      "knownIssuesUrl": "https://www.intel.com/content/www/us/en/download/785597/870567/intel-arc-graphics-windows.html",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-12-03T08:00:00.000Z",
+      "redditUrl": "https://redd.it/1pdnmt4",
+      "releaseDate": "Dec 3, 2025",
+      "releaseDateIso": "2025-12-03",
+      "releaseNotesUrl": "https://www.intel.com/content/www/us/en/download/785597/870567/intel-arc-graphics-windows.html",
+      "riskLevel": "medium",
+      "sha256sum": "3A66307EEBBDE7FDA8BAA05AD4AE4A78BF6D0587C48B78C8353D0701CB510950",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/870567/gfx_win_101.8331.exe"
+        },
+        {
+          "type": "release-notes",
+          "url": "https://www.intel.com/content/www/us/en/download/785597/870567/intel-arc-graphics-windows.html"
+        },
+        {
+          "type": "known-issues",
+          "url": "https://www.intel.com/content/www/us/en/download/785597/870567/intel-arc-graphics-windows.html"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1pdnmt4"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "intel",
+      "version": "32.0.101.8331",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "732F38139AF5033FCF387F8C7182FBE996B61B95B5D9E001CB123E76A0CD79ED"
+      },
       "downloadUrl": "https://downloadmirror.intel.com/869290/gfx_win_101.8250.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [],
+      "id": "intel|graphics|game-on|32-0-101-8250|20251111",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-11-11T08:00:00.000Z",
       "redditUrl": "https://redd.it/1ovuk57",
-      "hasWarning": false,
-      "isStable": false,
-      "sha256sum": "732F38139AF5033FCF387F8C7182FBE996B61B95B5D9E001CB123E76A0CD79ED"
+      "releaseDate": "Nov 11, 2025",
+      "releaseDateIso": "2025-11-11",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "732F38139AF5033FCF387F8C7182FBE996B61B95B5D9E001CB123E76A0CD79ED",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/869290/gfx_win_101.8250.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1ovuk57"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "",
+      "vendor": "intel",
+      "version": "32.0.101.8250",
+      "warningUrl": ""
     },
     {
-      "version": "32.0.101.8247",
-      "type": "WHQL Certified",
-      "releaseDate": "Oct 29, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "31AE6BF91D2A80164CA09A33222E6B38AEDE0A16F2728C791B7515AF7DDBD7A1"
+      },
       "downloadUrl": "https://downloadmirror.intel.com/868284/gfx_win_101.8247.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL Certified"
+      ],
+      "id": "intel|graphics|game-on|32-0-101-8247|whql-certified|20251029",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-10-29T07:00:00.000Z",
       "redditUrl": "https://redd.it/1ojm3y0",
-      "hasWarning": false,
-      "isStable": false,
-      "sha256sum": "31AE6BF91D2A80164CA09A33222E6B38AEDE0A16F2728C791B7515AF7DDBD7A1"
-    },
-    {
+      "releaseDate": "Oct 29, 2025",
+      "releaseDateIso": "2025-10-29",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "31AE6BF91D2A80164CA09A33222E6B38AEDE0A16F2728C791B7515AF7DDBD7A1",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/868284/gfx_win_101.8247.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1ojm3y0"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL Certified",
+      "vendor": "intel",
       "version": "32.0.101.8247",
-      "type": "",
-      "releaseDate": "Oct 23, 2025",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "AB9C399742435ACA0B0A0EE05FEB9260B4C9271F36891ED420F0B2723B9E48BA"
+      },
       "downloadUrl": "https://downloadmirror.intel.com/867039/gfx_win_101.8247.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [],
+      "id": "intel|graphics|game-on|32-0-101-8247|20251023",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-10-23T07:00:00.000Z",
       "redditUrl": "https://redd.it/1oep273",
-      "hasWarning": false,
-      "isStable": false,
-      "sha256sum": "AB9C399742435ACA0B0A0EE05FEB9260B4C9271F36891ED420F0B2723B9E48BA"
+      "releaseDate": "Oct 23, 2025",
+      "releaseDateIso": "2025-10-23",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "AB9C399742435ACA0B0A0EE05FEB9260B4C9271F36891ED420F0B2723B9E48BA",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/867039/gfx_win_101.8247.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1oep273"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "",
+      "vendor": "intel",
+      "version": "32.0.101.8247",
+      "warningUrl": ""
     },
     {
-      "version": "32.0.101.8136",
-      "type": "",
-      "releaseDate": "Oct 7, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "47F67C0F88B46C5EE80816804DA1EB651069AD17B7A664CD152294F0BAC34155"
+      },
       "downloadUrl": "https://downloadmirror.intel.com/866234/gfx_win_101.8136.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [],
+      "id": "intel|graphics|game-on|32-0-101-8136|20251007",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-10-07T07:00:00.000Z",
       "redditUrl": "https://redd.it/1o174lp",
-      "hasWarning": false,
-      "isStable": false,
-      "sha256sum": "47F67C0F88B46C5EE80816804DA1EB651069AD17B7A664CD152294F0BAC34155"
+      "releaseDate": "Oct 7, 2025",
+      "releaseDateIso": "2025-10-07",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "47F67C0F88B46C5EE80816804DA1EB651069AD17B7A664CD152294F0BAC34155",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/866234/gfx_win_101.8136.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1o174lp"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "",
+      "vendor": "intel",
+      "version": "32.0.101.8136",
+      "warningUrl": ""
     },
     {
-      "version": "32.0.101.8135",
-      "type": "",
-      "releaseDate": "Oct 1, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "50C74D1FB8B31FA84D32A4912198CDAEA08A33EFF8A4E745C0C125247A2F5BF9"
+      },
       "downloadUrl": "https://downloadmirror.intel.com/865890/gfx_win_101.8135.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [],
+      "id": "intel|graphics|game-on|32-0-101-8135|20251001",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-10-01T07:00:00.000Z",
       "redditUrl": "https://redd.it/1nvp1jc",
-      "hasWarning": false,
-      "isStable": false,
-      "sha256sum": "50C74D1FB8B31FA84D32A4912198CDAEA08A33EFF8A4E745C0C125247A2F5BF9"
+      "releaseDate": "Oct 1, 2025",
+      "releaseDateIso": "2025-10-01",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "50C74D1FB8B31FA84D32A4912198CDAEA08A33EFF8A4E745C0C125247A2F5BF9",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/865890/gfx_win_101.8135.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1nvp1jc"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "",
+      "vendor": "intel",
+      "version": "32.0.101.8135",
+      "warningUrl": ""
     },
     {
-      "version": "32.0.101.8132",
-      "type": "WHQL Certified",
-      "releaseDate": "Sep 23, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "4D1FBBFB0ABD720393700C39A665F2458A2BA62A3E7796E5206DCC6DC364700B"
+      },
       "downloadUrl": "https://downloadmirror.intel.com/865175/gfx_win_101.8132.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL Certified"
+      ],
+      "id": "intel|graphics|game-on|32-0-101-8132|whql-certified|20250923",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-09-23T07:00:00.000Z",
       "redditUrl": "https://redd.it/1np7q86",
-      "hasWarning": false,
-      "isStable": false,
-      "sha256sum": "4D1FBBFB0ABD720393700C39A665F2458A2BA62A3E7796E5206DCC6DC364700B"
+      "releaseDate": "Sep 23, 2025",
+      "releaseDateIso": "2025-09-23",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "4D1FBBFB0ABD720393700C39A665F2458A2BA62A3E7796E5206DCC6DC364700B",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/865175/gfx_win_101.8132.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1np7q86"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL Certified",
+      "vendor": "intel",
+      "version": "32.0.101.8132",
+      "warningUrl": ""
     },
     {
-      "version": "32.0.101.7029",
-      "type": "",
-      "releaseDate": "Sep 10, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "35FD1792A66B5F28EDB207E16D28449844A9995A791BC84E034FBAF1E91336E2"
+      },
       "downloadUrl": "https://downloadmirror.intel.com/864391/gfx_win_101.7029.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [],
+      "id": "intel|graphics|game-on|32-0-101-7029|20250910",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-09-10T07:00:00.000Z",
       "redditUrl": "https://redd.it/1ne2i1v",
-      "hasWarning": false,
-      "isStable": false,
-      "sha256sum": "35FD1792A66B5F28EDB207E16D28449844A9995A791BC84E034FBAF1E91336E2"
+      "releaseDate": "Sep 10, 2025",
+      "releaseDateIso": "2025-09-10",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "35FD1792A66B5F28EDB207E16D28449844A9995A791BC84E034FBAF1E91336E2",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/864391/gfx_win_101.7029.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1ne2i1v"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "",
+      "vendor": "intel",
+      "version": "32.0.101.7029",
+      "warningUrl": ""
     },
     {
-      "version": "32.0.101.7028",
-      "type": "",
-      "releaseDate": "Aug 26, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "C615CDA00D5437D297C3F51922587D0CFFD302918F612C4A08578F1922265403"
+      },
       "downloadUrl": "https://downloadmirror.intel.com/863383/gfx_win_101.7028.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [],
+      "id": "intel|graphics|game-on|32-0-101-7028|20250826",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-08-26T07:00:00.000Z",
       "redditUrl": "https://redd.it/1n19lpa",
-      "hasWarning": false,
-      "isStable": false,
-      "sha256sum": "C615CDA00D5437D297C3F51922587D0CFFD302918F612C4A08578F1922265403"
+      "releaseDate": "Aug 26, 2025",
+      "releaseDateIso": "2025-08-26",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "C615CDA00D5437D297C3F51922587D0CFFD302918F612C4A08578F1922265403",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/863383/gfx_win_101.7028.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1n19lpa"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "",
+      "vendor": "intel",
+      "version": "32.0.101.7028",
+      "warningUrl": ""
     },
     {
-      "version": "32.0.101.7026",
-      "type": "WHQL Certified",
-      "releaseDate": "Aug 22, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "68986D0F954E727C4080DD81A98C57ED0DB00947E26EF28A8A1D3480132A12D1"
+      },
       "downloadUrl": "https://downloadmirror.intel.com/863047/gfx_win_101.7026.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL Certified"
+      ],
+      "id": "intel|graphics|game-on|32-0-101-7026|whql-certified|20250822",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-08-22T07:00:00.000Z",
       "redditUrl": "https://redd.it/1mxndub",
-      "hasWarning": false,
-      "isStable": false,
-      "sha256sum": "68986D0F954E727C4080DD81A98C57ED0DB00947E26EF28A8A1D3480132A12D1"
+      "releaseDate": "Aug 22, 2025",
+      "releaseDateIso": "2025-08-22",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "68986D0F954E727C4080DD81A98C57ED0DB00947E26EF28A8A1D3480132A12D1",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/863047/gfx_win_101.7026.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1mxndub"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL Certified",
+      "vendor": "intel",
+      "version": "32.0.101.7026",
+      "warningUrl": ""
     },
     {
-      "version": "32.0.101.6989",
-      "type": "",
-      "releaseDate": "Aug 8, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "C83CEA596B7C244D816D85A03E55393B66A9C22104BB5A58A6E3AA4684EF08C0"
+      },
       "downloadUrl": "https://downloadmirror.intel.com/862321/gfx_win_101.6989.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [],
+      "id": "intel|graphics|game-on|32-0-101-6989|20250808",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-08-08T07:00:00.000Z",
       "redditUrl": "https://redd.it/1ml4m1z",
-      "hasWarning": false,
-      "isStable": false,
-      "sha256sum": "C83CEA596B7C244D816D85A03E55393B66A9C22104BB5A58A6E3AA4684EF08C0"
+      "releaseDate": "Aug 8, 2025",
+      "releaseDateIso": "2025-08-08",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "C83CEA596B7C244D816D85A03E55393B66A9C22104BB5A58A6E3AA4684EF08C0",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/862321/gfx_win_101.6989.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1ml4m1z"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "",
+      "vendor": "intel",
+      "version": "32.0.101.6989",
+      "warningUrl": ""
     },
     {
-      "version": "32.0.101.6987",
-      "type": "WHQL Certified",
-      "releaseDate": "Aug 6, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "4AAC97480BD07D3B35A99076344959A850651921B628D1D6046B51FCD6AEEBFD"
+      },
       "downloadUrl": "https://downloadmirror.intel.com/861411/gfx_win_101.6987.exe",
-      "redditUrl": "https://redd.it/1mjmzu2",
+      "family": "graphics",
       "hasWarning": false,
+      "highlights": [
+        "WHQL Certified"
+      ],
+      "id": "intel|graphics|game-on|32-0-101-6987|whql-certified|20250806",
       "isStable": false,
-      "sha256sum": "4AAC97480BD07D3B35A99076344959A850651921B628D1D6046B51FCD6AEEBFD"
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-08-06T07:00:00.000Z",
+      "redditUrl": "https://redd.it/1mjmzu2",
+      "releaseDate": "Aug 6, 2025",
+      "releaseDateIso": "2025-08-06",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "4AAC97480BD07D3B35A99076344959A850651921B628D1D6046B51FCD6AEEBFD",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/861411/gfx_win_101.6987.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1mjmzu2"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL Certified",
+      "vendor": "intel",
+      "version": "32.0.101.6987",
+      "warningUrl": ""
     },
     {
-      "version": "32.0.101.6972",
-      "type": "",
-      "releaseDate": "Jul 22, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": null,
       "downloadUrl": "https://downloadmirror.intel.com/861295/gfx_win_101.6972.exe",
-      "redditUrl": "https://redd.it/1lmc0j1",
+      "family": "graphics",
       "hasWarning": false,
-      "isStable": false
+      "highlights": [],
+      "id": "intel|graphics|game-on|32-0-101-6972|20250722",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-07-22T07:00:00.000Z",
+      "redditUrl": "https://redd.it/1lmc0j1",
+      "releaseDate": "Jul 22, 2025",
+      "releaseDateIso": "2025-07-22",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/861295/gfx_win_101.6972.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1lmc0j1"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "",
+      "vendor": "intel",
+      "version": "32.0.101.6972",
+      "warningUrl": ""
     },
     {
-      "version": "32.0.101.6913",
-      "type": "WHQL Certified",
-      "releaseDate": "Jun 27, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": null,
       "downloadUrl": "https://downloadmirror.intel.com/858734/gfx_win_101.6913.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL Certified"
+      ],
+      "id": "intel|graphics|game-on|32-0-101-6913|whql-certified|20250627",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-06-27T07:00:00.000Z",
       "redditUrl": "https://redd.it/1lmc0j1",
-      "hasWarning": false,
-      "isStable": false
+      "releaseDate": "Jun 27, 2025",
+      "releaseDateIso": "2025-06-27",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/858734/gfx_win_101.6913.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1lmc0j1"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL Certified",
+      "vendor": "intel",
+      "version": "32.0.101.6913",
+      "warningUrl": ""
     },
     {
-      "version": "32.0.101.6881",
-      "type": "WHQL Certified",
-      "releaseDate": "Jun 9, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": null,
       "downloadUrl": "https://downloadmirror.intel.com/857041/gfx_win_101.6881.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL Certified"
+      ],
+      "id": "intel|graphics|game-on|32-0-101-6881|whql-certified|20250609",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-06-09T07:00:00.000Z",
       "redditUrl": "https://redd.it/1l7sa65",
-      "hasWarning": false,
-      "isStable": false
+      "releaseDate": "Jun 9, 2025",
+      "releaseDateIso": "2025-06-09",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/857041/gfx_win_101.6881.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1l7sa65"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL Certified",
+      "vendor": "intel",
+      "version": "32.0.101.6881",
+      "warningUrl": ""
     },
     {
-      "version": "32.0.101.6877",
-      "type": "",
-      "releaseDate": "Jun 5, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": null,
       "downloadUrl": "https://downloadmirror.intel.com/856530/gfx_win_101.6877.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [],
+      "id": "intel|graphics|game-on|32-0-101-6877|20250605",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-06-05T07:00:00.000Z",
       "redditUrl": "https://redd.it/1l4fil2",
-      "hasWarning": false,
-      "isStable": false
+      "releaseDate": "Jun 5, 2025",
+      "releaseDateIso": "2025-06-05",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/856530/gfx_win_101.6877.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1l4fil2"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "",
+      "vendor": "intel",
+      "version": "32.0.101.6877",
+      "warningUrl": ""
     },
     {
-      "version": "32.0.101.6876",
-      "type": "",
-      "releaseDate": "Jun 3, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": null,
       "downloadUrl": "https://downloadmirror.intel.com/856438/gfx_win_101.6876.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [],
+      "id": "intel|graphics|game-on|32-0-101-6876|20250603",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-06-03T07:00:00.000Z",
       "redditUrl": "https://redd.it/1kzj7co",
-      "hasWarning": false,
-      "isStable": false
+      "releaseDate": "Jun 3, 2025",
+      "releaseDateIso": "2025-06-03",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/856438/gfx_win_101.6876.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1kzj7co"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "",
+      "vendor": "intel",
+      "version": "32.0.101.6876",
+      "warningUrl": ""
     },
     {
-      "version": "32.0.101.6874",
-      "type": "WHQL Certified",
-      "releaseDate": "May 30, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": null,
       "downloadUrl": "https://downloadmirror.intel.com/855955/gfx_win_101.6874.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL Certified"
+      ],
+      "id": "intel|graphics|game-on|32-0-101-6874|whql-certified|20250530",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-05-30T07:00:00.000Z",
       "redditUrl": "https://redd.it/1jljqs0",
-      "hasWarning": false,
-      "isStable": false
+      "releaseDate": "May 30, 2025",
+      "releaseDateIso": "2025-05-30",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/855955/gfx_win_101.6874.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1jljqs0"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL Certified",
+      "vendor": "intel",
+      "version": "32.0.101.6874",
+      "warningUrl": ""
     },
     {
-      "version": "32.0.101.6795",
-      "type": "",
-      "releaseDate": "May 23, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": null,
       "downloadUrl": "https://downloadmirror.intel.com/855596/gfx_win_101.6795.exe",
-      "redditUrl": null,
+      "family": "graphics",
       "hasWarning": false,
-      "isStable": false
+      "highlights": [],
+      "id": "intel|graphics|game-on|32-0-101-6795|20250523",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-05-23T07:00:00.000Z",
+      "redditUrl": "",
+      "releaseDate": "May 23, 2025",
+      "releaseDateIso": "2025-05-23",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/855596/gfx_win_101.6795.exe"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "",
+      "vendor": "intel",
+      "version": "32.0.101.6795",
+      "warningUrl": ""
     },
     {
-      "version": "32.0.101.6793",
-      "type": "",
-      "releaseDate": "May 9, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": null,
       "downloadUrl": "https://downloadmirror.intel.com/854560/gfx_win_101.6793.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [],
+      "id": "intel|graphics|game-on|32-0-101-6793|20250509",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-05-09T07:00:00.000Z",
       "redditUrl": "https://redd.it/1kizjsj",
-      "hasWarning": false,
-      "isStable": false
-    },
-    {
-      "version": "32.0.101.6790",
-      "type": "WHQL Certified",
-      "releaseDate": "May 2, 2025",
-      "downloadUrl": "https://downloadmirror.intel.com/853993/gfx_win_101.6790.exe",
-      "redditUrl": "https://redd.it/1kdh5bj",
-      "hasWarning": false,
-      "isStable": false
-    },
-    {
-      "version": "32.0.101.6739",
+      "releaseDate": "May 9, 2025",
+      "releaseDateIso": "2025-05-09",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/854560/gfx_win_101.6793.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1kizjsj"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
       "type": "",
-      "releaseDate": "Apr 25, 2025",
+      "vendor": "intel",
+      "version": "32.0.101.6793",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": null,
+      "downloadUrl": "https://downloadmirror.intel.com/853993/gfx_win_101.6790.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL Certified"
+      ],
+      "id": "intel|graphics|game-on|32-0-101-6790|whql-certified|20250502",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-05-02T07:00:00.000Z",
+      "redditUrl": "https://redd.it/1kdh5bj",
+      "releaseDate": "May 2, 2025",
+      "releaseDateIso": "2025-05-02",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/853993/gfx_win_101.6790.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1kdh5bj"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL Certified",
+      "vendor": "intel",
+      "version": "32.0.101.6790",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": null,
       "downloadUrl": "https://downloadmirror.intel.com/853435/gfx_win_101.6739.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [],
+      "id": "intel|graphics|game-on|32-0-101-6739|20250425",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-04-25T07:00:00.000Z",
       "redditUrl": "https://redd.it/1k801s0",
-      "hasWarning": false,
-      "isStable": false
+      "releaseDate": "Apr 25, 2025",
+      "releaseDateIso": "2025-04-25",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/853435/gfx_win_101.6739.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1k801s0"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "",
+      "vendor": "intel",
+      "version": "32.0.101.6739",
+      "warningUrl": ""
     },
     {
-      "version": "32.0.101.6737",
-      "type": "WHQL Certified",
-      "releaseDate": "Apr 23, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": null,
       "downloadUrl": "https://downloadmirror.intel.com/853185/gfx_win_101.6737.exe",
-      "redditUrl": "https://redd.it/1k6dnms",
+      "family": "graphics",
       "hasWarning": false,
-      "isStable": false
+      "highlights": [
+        "WHQL Certified"
+      ],
+      "id": "intel|graphics|game-on|32-0-101-6737|whql-certified|20250423",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-04-23T07:00:00.000Z",
+      "redditUrl": "https://redd.it/1k6dnms",
+      "releaseDate": "Apr 23, 2025",
+      "releaseDateIso": "2025-04-23",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/853185/gfx_win_101.6737.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1k6dnms"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL Certified",
+      "vendor": "intel",
+      "version": "32.0.101.6737",
+      "warningUrl": ""
     },
     {
-      "version": "32.0.101.6734",
-      "type": "WHQL Certified",
-      "releaseDate": "Apr 8, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-on",
+      "checksum": null,
       "downloadUrl": "https://downloadmirror.intel.com/851966/gfx_win_101.6734.exe",
-      "redditUrl": "https://redd.it/1jutg80",
+      "family": "graphics",
       "hasWarning": false,
-      "isStable": false
+      "highlights": [
+        "WHQL Certified"
+      ],
+      "id": "intel|graphics|game-on|32-0-101-6734|whql-certified|20250408",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-04-08T07:00:00.000Z",
+      "redditUrl": "https://redd.it/1jutg80",
+      "releaseDate": "Apr 8, 2025",
+      "releaseDateIso": "2025-04-08",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/851966/gfx_win_101.6734.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1jutg80"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL Certified",
+      "vendor": "intel",
+      "version": "32.0.101.6734",
+      "warningUrl": ""
     }
   ]
 }

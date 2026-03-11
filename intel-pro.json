@@ -1,97 +1,484 @@
 {
-  "lastUpdated": "09-15-25",
+  "lastUpdated": "02-11-26",
   "warningMessage": "Note: Currently with the Arc Pro drivers, I am unable to find community threads on these versions, hence why there is no reddit/external community link on these.",
   "drivers": [
     {
-      "version": "32.0.101.6979",
-      "type": "",
-      "releaseDate": "Sep 03, 2025",
-      "downloadUrl": "https://downloadmirror.intel.com/861406/gfx_win_101.6979.exe",
-      "redditUrl": null,
+      "architectures": [
+        "x64"
+      ],
+      "channel": "pro",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "EA438576B6058F1DC062F5DD20CD7F14EBD9365F14B9FF5FEAB15FD5246DF70E"
+      },
+      "downloadUrl": "https://downloadmirror.intel.com/874367/gfx_win_101.8314.exe",
+      "family": "graphics",
       "hasWarning": false,
+      "highlights": [
+        "Professional certified branch"
+      ],
+      "id": "intel|graphics|pro|32-0-101-8314|20260211",
       "isStable": false,
-      "sha256sum": "60B5E79C7372394E72714DE1F20CC234E42045EA9CECB16746914BBD1A9E8CE9"
+      "issueTags": [
+        "known-issues"
+      ],
+      "knownIssuesUrl": "https://www.intel.com/content/www/us/en/download/741626/intel-arc-pro-graphics-windows.html",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2026-02-11T08:00:00.000Z",
+      "redditUrl": "",
+      "releaseDate": "Feb 11, 2026",
+      "releaseDateIso": "2026-02-11",
+      "releaseNotesUrl": "https://www.intel.com/content/www/us/en/download/741626/intel-arc-pro-graphics-windows.html",
+      "riskLevel": "medium",
+      "sha256sum": "EA438576B6058F1DC062F5DD20CD7F14EBD9365F14B9FF5FEAB15FD5246DF70E",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/874367/gfx_win_101.8314.exe"
+        },
+        {
+          "type": "release-notes",
+          "url": "https://www.intel.com/content/www/us/en/download/741626/intel-arc-pro-graphics-windows.html"
+        },
+        {
+          "type": "known-issues",
+          "url": "https://www.intel.com/content/www/us/en/download/741626/intel-arc-pro-graphics-windows.html"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "",
+      "vendor": "intel",
+      "version": "32.0.101.8314",
+      "warningUrl": ""
     },
     {
-      "version": "32.0.101.6862",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "pro",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "60B5E79C7372394E72714DE1F20CC234E42045EA9CECB16746914BBD1A9E8CE9"
+      },
+      "downloadUrl": "https://downloadmirror.intel.com/861406/gfx_win_101.6979.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "Professional certified branch"
+      ],
+      "id": "intel|graphics|pro|32-0-101-6979|20250903",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-09-03T07:00:00.000Z",
+      "redditUrl": "",
+      "releaseDate": "Sep 03, 2025",
+      "releaseDateIso": "2025-09-03",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "60B5E79C7372394E72714DE1F20CC234E42045EA9CECB16746914BBD1A9E8CE9",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/861406/gfx_win_101.6979.exe"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
       "type": "",
-      "releaseDate": "Jul 08, 2025",
+      "vendor": "intel",
+      "version": "32.0.101.6979",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "pro",
+      "checksum": null,
       "downloadUrl": "https://downloadmirror.intel.com/858212/gfx_win_101.6862.exe",
-      "redditUrl": null,
+      "family": "graphics",
       "hasWarning": false,
-      "isStable": false
+      "highlights": [
+        "Professional certified branch"
+      ],
+      "id": "intel|graphics|pro|32-0-101-6862|20250708",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-07-08T07:00:00.000Z",
+      "redditUrl": "",
+      "releaseDate": "Jul 08, 2025",
+      "releaseDateIso": "2025-07-08",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/858212/gfx_win_101.6862.exe"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "",
+      "vendor": "intel",
+      "version": "32.0.101.6862",
+      "warningUrl": ""
     },
     {
-      "version": "32.0.101.6306",
-      "type": "",
-      "releaseDate": "Mar 27, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "pro",
+      "checksum": null,
       "downloadUrl": "https://downloadmirror.intel.com/850602/gfx_win_101.6637.exe",
-      "redditUrl": null,
+      "family": "graphics",
       "hasWarning": false,
-      "isStable": false
-    },
-    {
+      "highlights": [
+        "Professional certified branch"
+      ],
+      "id": "intel|graphics|pro|32-0-101-6306|20250327",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-03-27T07:00:00.000Z",
+      "redditUrl": "",
+      "releaseDate": "Mar 27, 2025",
+      "releaseDateIso": "2025-03-27",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/850602/gfx_win_101.6637.exe"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "",
+      "vendor": "intel",
       "version": "32.0.101.6306",
-      "type": "",
-      "releaseDate": "Jan 30, 2025",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "pro",
+      "checksum": null,
       "downloadUrl": "https://downloadmirror.intel.com/845932/gfx_win_101.6306.exe",
-      "redditUrl": null,
+      "family": "graphics",
       "hasWarning": false,
-      "isStable": false
+      "highlights": [
+        "Professional certified branch"
+      ],
+      "id": "intel|graphics|pro|32-0-101-6306|20250130",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-01-30T08:00:00.000Z",
+      "redditUrl": "",
+      "releaseDate": "Jan 30, 2025",
+      "releaseDateIso": "2025-01-30",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/845932/gfx_win_101.6306.exe"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "",
+      "vendor": "intel",
+      "version": "32.0.101.6306",
+      "warningUrl": ""
     },
     {
-      "version": "32.0.101.6303",
-      "type": "",
-      "releaseDate": "Dec 20, 2024",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "pro",
+      "checksum": null,
       "downloadUrl": "https://downloadmirror.intel.com/843633/gfx_win_101.6303.exe",
-      "redditUrl": null,
+      "family": "graphics",
       "hasWarning": false,
-      "isStable": false
+      "highlights": [
+        "Professional certified branch"
+      ],
+      "id": "intel|graphics|pro|32-0-101-6303|20241220",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2024-12-20T08:00:00.000Z",
+      "redditUrl": "",
+      "releaseDate": "Dec 20, 2024",
+      "releaseDateIso": "2024-12-20",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/843633/gfx_win_101.6303.exe"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "",
+      "vendor": "intel",
+      "version": "32.0.101.6303",
+      "warningUrl": ""
     },
     {
-      "version": "32.0.101.5978",
-      "type": "",
-      "releaseDate": "Sep 20, 2024",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "pro",
+      "checksum": null,
       "downloadUrl": "https://downloadmirror.intel.com/833975/gfx_win_101.5978.exe",
-      "redditUrl": null,
+      "family": "graphics",
       "hasWarning": false,
-      "isStable": false
+      "highlights": [
+        "Professional certified branch"
+      ],
+      "id": "intel|graphics|pro|32-0-101-5978|20240920",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2024-09-20T07:00:00.000Z",
+      "redditUrl": "",
+      "releaseDate": "Sep 20, 2024",
+      "releaseDateIso": "2024-09-20",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/833975/gfx_win_101.5978.exe"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "",
+      "vendor": "intel",
+      "version": "32.0.101.5978",
+      "warningUrl": ""
     },
     {
-      "version": "31.0.101.5525",
-      "type": "",
-      "releaseDate": "Jun 28, 2024",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "pro",
+      "checksum": null,
       "downloadUrl": "https://downloadmirror.intel.com/826371/gfx_win_101.5525.exe",
-      "redditUrl": null,
+      "family": "graphics",
       "hasWarning": false,
-      "isStable": false
+      "highlights": [
+        "Professional certified branch"
+      ],
+      "id": "intel|graphics|pro|31-0-101-5525|20240628",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2024-06-28T07:00:00.000Z",
+      "redditUrl": "",
+      "releaseDate": "Jun 28, 2024",
+      "releaseDateIso": "2024-06-28",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/826371/gfx_win_101.5525.exe"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "",
+      "vendor": "intel",
+      "version": "31.0.101.5525",
+      "warningUrl": ""
     },
     {
-      "version": "31.0.101.5319/31.0.101.5321",
-      "type": "",
-      "releaseDate": "Mar 28, 2024",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "pro",
+      "checksum": null,
       "downloadUrl": "https://downloadmirror.intel.com/819588/gfx_win_101.5319_101.5321.exe",
-      "redditUrl": null,
+      "family": "graphics",
       "hasWarning": false,
-      "isStable": false
+      "highlights": [
+        "Professional certified branch"
+      ],
+      "id": "intel|graphics|pro|31-0-101-5319-31-0-101-5321|20240328",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2024-03-28T07:00:00.000Z",
+      "redditUrl": "",
+      "releaseDate": "Mar 28, 2024",
+      "releaseDateIso": "2024-03-28",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/819588/gfx_win_101.5319_101.5321.exe"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "",
+      "vendor": "intel",
+      "version": "31.0.101.5319/31.0.101.5321",
+      "warningUrl": ""
     },
     {
-      "version": "31.0.101.5319",
-      "type": "",
-      "releaseDate": "Mar 8, 2024",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "pro",
+      "checksum": null,
       "downloadUrl": "https://downloadmirror.intel.com/817798/gfx_win_101.5319.exe",
-      "redditUrl": null,
+      "family": "graphics",
       "hasWarning": false,
-      "isStable": false
+      "highlights": [
+        "Professional certified branch"
+      ],
+      "id": "intel|graphics|pro|31-0-101-5319|20240308",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2024-03-08T08:00:00.000Z",
+      "redditUrl": "",
+      "releaseDate": "Mar 8, 2024",
+      "releaseDateIso": "2024-03-08",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/817798/gfx_win_101.5319.exe"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "",
+      "vendor": "intel",
+      "version": "31.0.101.5319",
+      "warningUrl": ""
     },
     {
-      "version": "31.0.101.4955",
-      "type": "",
-      "releaseDate": "Dec 21, 2023",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "pro",
+      "checksum": null,
       "downloadUrl": "https://downloadmirror.intel.com/795589/gfx_win_101.4955.exe",
-      "redditUrl": null,
+      "family": "graphics",
       "hasWarning": false,
-      "isStable": false
+      "highlights": [
+        "Professional certified branch"
+      ],
+      "id": "intel|graphics|pro|31-0-101-4955|20231221",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2023-12-21T08:00:00.000Z",
+      "redditUrl": "",
+      "releaseDate": "Dec 21, 2023",
+      "releaseDateIso": "2023-12-21",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/795589/gfx_win_101.4955.exe"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "",
+      "vendor": "intel",
+      "version": "31.0.101.4955",
+      "warningUrl": ""
     }
   ]
 }

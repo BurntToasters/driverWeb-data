@@ -1,0 +1,9 @@
+# ====================================================================================== #
+# This is the info file for the driverWeb-data package.
+# DATA_VERSION is used for this package.
+# SCHEMA is used for the structure of this file (JSON).
+# DriverWeb_version marks the version of DriverWeb that this package is compatible with.
+# ====================================================================================== #
+DATA_VERSION: 2026.11.03
+SCHEMA: 2.0
+DriverWeb_version: v5

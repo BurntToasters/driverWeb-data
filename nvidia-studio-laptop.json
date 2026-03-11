@@ -1,267 +1,1494 @@
 {
-  "lastUpdated": "11-05-25",
+  "lastUpdated": "03-10-26",
   "warningMessage": "Nvidia drivers <a href=\"https://youtu.be/KrCEPX47vtw\" target=\"_blank\">576.02</a> and ones based on the 572.xx versions have known <a href=\"https://youtu.be/NTXoUsdSAnA\" target=\"_blank\"><u>instability issues</u></a>. It is recommended to install 566.36 or lower for stability.",
   "drivers": [
     {
-      "version": "581.57",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "65E47A5014CDE788A5251BB277B0E83E39D3AE6079F4080C1A351208145008D1"
+      },
+      "downloadUrl": "https://us.download.nvidia.com/Windows/595.79/595.79-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
+      "family": "graphics-laptop",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|595-79|whql|20260310",
+      "isStable": false,
+      "issueTags": [
+        "known-issues"
+      ],
+      "knownIssuesUrl": "https://us.download.nvidia.com/Windows/595.79/595.79-win10-win11-nsd-release-notes.pdf",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2026-03-10T07:00:00.000Z",
+      "redditUrl": "https://redd.it/1rq06sx",
+      "releaseDate": "Mar 10, 2026",
+      "releaseDateIso": "2026-03-10",
+      "releaseNotesUrl": "https://us.download.nvidia.com/Windows/595.79/595.79-win10-win11-nsd-release-notes.pdf",
+      "riskLevel": "medium",
+      "sha256sum": "65E47A5014CDE788A5251BB277B0E83E39D3AE6079F4080C1A351208145008D1",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/595.79/595.79-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        },
+        {
+          "type": "release-notes",
+          "url": "https://us.download.nvidia.com/Windows/595.79/595.79-win10-win11-nsd-release-notes.pdf"
+        },
+        {
+          "type": "known-issues",
+          "url": "https://us.download.nvidia.com/Windows/595.79/595.79-win10-win11-nsd-release-notes.pdf"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1rq06sx"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
       "type": "WHQL",
-      "releaseDate": "Oct 14, 2025",
+      "vendor": "nvidia",
+      "version": "595.79",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "7CD7C3AD1CFA462307D4F7DF13251D311AABB51845E63C0996FD6721354B0EBA"
+      },
+      "downloadUrl": "https://us.download.nvidia.com/Windows/591.74/591.74-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
+      "family": "graphics-laptop",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|591-74|whql|20260105",
+      "isStable": false,
+      "issueTags": [
+        "known-issues"
+      ],
+      "knownIssuesUrl": "https://us.download.nvidia.com/Windows/591.74/591.74-win10-win11-nsd-release-notes.pdf",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2026-01-05T08:00:00.000Z",
+      "redditUrl": "https://redd.it/1q5a3zx",
+      "releaseDate": "Jan 05, 2026",
+      "releaseDateIso": "2026-01-05",
+      "releaseNotesUrl": "https://us.download.nvidia.com/Windows/591.74/591.74-win10-win11-nsd-release-notes.pdf",
+      "riskLevel": "medium",
+      "sha256sum": "7CD7C3AD1CFA462307D4F7DF13251D311AABB51845E63C0996FD6721354B0EBA",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/591.74/591.74-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        },
+        {
+          "type": "release-notes",
+          "url": "https://us.download.nvidia.com/Windows/591.74/591.74-win10-win11-nsd-release-notes.pdf"
+        },
+        {
+          "type": "known-issues",
+          "url": "https://us.download.nvidia.com/Windows/591.74/591.74-win10-win11-nsd-release-notes.pdf"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1q5a3zx"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "591.74",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "4783C070E2B05BE6FB6AAA8BF02F8A8A16760ACDDB6A80E63D2A6F7010095D1E"
+      },
+      "downloadUrl": "https://us.download.nvidia.com/Windows/591.44/591.44-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
+      "family": "graphics-laptop",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|591-44|whql|20251204",
+      "isStable": false,
+      "issueTags": [
+        "known-issues"
+      ],
+      "knownIssuesUrl": "https://us.download.nvidia.com/Windows/591.44/591.44-win10-win11-nsd-release-notes.pdf",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-12-04T08:00:00.000Z",
+      "redditUrl": "https://redd.it/1pe3ids",
+      "releaseDate": "Dec 04, 2025",
+      "releaseDateIso": "2025-12-04",
+      "releaseNotesUrl": "https://us.download.nvidia.com/Windows/591.44/591.44-win10-win11-nsd-release-notes.pdf",
+      "riskLevel": "medium",
+      "sha256sum": "4783C070E2B05BE6FB6AAA8BF02F8A8A16760ACDDB6A80E63D2A6F7010095D1E",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/591.44/591.44-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        },
+        {
+          "type": "release-notes",
+          "url": "https://us.download.nvidia.com/Windows/591.44/591.44-win10-win11-nsd-release-notes.pdf"
+        },
+        {
+          "type": "known-issues",
+          "url": "https://us.download.nvidia.com/Windows/591.44/591.44-win10-win11-nsd-release-notes.pdf"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1pe3ids"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "591.44",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "D0934BE8E381BA29913C8D718F108232B2AC685F314CB02510672DEE3E746904"
+      },
       "downloadUrl": "https://us.download.nvidia.com/Windows/581.57/581.57-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
+      "family": "graphics-laptop",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|581-57|whql|20251014",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-10-14T07:00:00.000Z",
       "redditUrl": "https://redd.it/1o6dpc1",
-      "hasWarning": false,
-      "isStable": false,
-      "stabilityGrade": null,
-      "sha256sum": "D0934BE8E381BA29913C8D718F108232B2AC685F314CB02510672DEE3E746904"
+      "releaseDate": "Oct 14, 2025",
+      "releaseDateIso": "2025-10-14",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "D0934BE8E381BA29913C8D718F108232B2AC685F314CB02510672DEE3E746904",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/581.57/581.57-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1o6dpc1"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "581.57",
+      "warningUrl": ""
     },
     {
-      "version": "581.29",
-      "type": "WHQL",
-      "releaseDate": "Sep 10, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "002E46DAFFED8C89F09325397839739D49F12594260A0990BC601FBEB3155CB4"
+      },
       "downloadUrl": "https://us.download.nvidia.com/Windows/581.29/581.29-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
+      "family": "graphics-laptop",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|581-29|whql|20250910",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-09-10T07:00:00.000Z",
       "redditUrl": "https://redd.it/1ndc1v3",
-      "hasWarning": false,
-      "isStable": false,
-      "sha256sum": "002E46DAFFED8C89F09325397839739D49F12594260A0990BC601FBEB3155CB4"
+      "releaseDate": "Sep 10, 2025",
+      "releaseDateIso": "2025-09-10",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "002E46DAFFED8C89F09325397839739D49F12594260A0990BC601FBEB3155CB4",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/581.29/581.29-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1ndc1v3"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "581.29",
+      "warningUrl": ""
     },
     {
-      "version": "580.97",
-      "type": "WHQL",
-      "releaseDate": "Aug 12, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "C76135FAB7562A7AEA589586A09C3A8C4776C09370CAEB59615BCCC029166FC0"
+      },
       "downloadUrl": "https://us.download.nvidia.com/Windows/580.97/580.97-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
+      "family": "graphics-laptop",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|580-97|whql|20250812",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-08-12T07:00:00.000Z",
       "redditUrl": "https://redd.it/1mo5uzw",
-      "hasWarning": false,
-      "isStable": false,
-      "sha256sum": "c76135fab7562a7aea589586a09c3a8c4776c09370caeb59615bccc029166fc0"
+      "releaseDate": "Aug 12, 2025",
+      "releaseDateIso": "2025-08-12",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "C76135FAB7562A7AEA589586A09C3A8C4776C09370CAEB59615BCCC029166FC0",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/580.97/580.97-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1mo5uzw"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "580.97",
+      "warningUrl": ""
     },
     {
-      "version": "577.00",
-      "type": "WHQL",
-      "releaseDate": "Jul 22, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "DF1DAB1D45BF80ABB6CB3509572E8B8F9930F4725399B058141A88BFA25D69F9"
+      },
       "downloadUrl": "https://us.download.nvidia.com/Windows/577.00/577.00-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
-      "redditUrl": "https://redd.it/1m6f19v",
+      "family": "graphics-laptop",
       "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|577-00|whql|20250722",
       "isStable": false,
-      "sha256sum": "DF1DAB1D45BF80ABB6CB3509572E8B8F9930F4725399B058141A88BFA25D69F9"
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-07-22T07:00:00.000Z",
+      "redditUrl": "https://redd.it/1m6f19v",
+      "releaseDate": "Jul 22, 2025",
+      "releaseDateIso": "2025-07-22",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "DF1DAB1D45BF80ABB6CB3509572E8B8F9930F4725399B058141A88BFA25D69F9",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/577.00/577.00-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1m6f19v"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "577.00",
+      "warningUrl": ""
     },
     {
-      "version": "576.80",
-      "type": "WHQL",
-      "releaseDate": "Jun 17, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/576.80/576.80-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
+      "family": "graphics-laptop",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|576-80|whql|20250617",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-06-17T07:00:00.000Z",
       "redditUrl": "https://redd.it/1ldmjk7",
-      "hasWarning": false,
-      "isStable": false
+      "releaseDate": "Jun 17, 2025",
+      "releaseDateIso": "2025-06-17",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/576.80/576.80-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1ldmjk7"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "576.80",
+      "warningUrl": ""
     },
     {
-      "version": "576.52",
-      "type": "WHQL",
-      "releaseDate": "May 19, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/576.52/576.52-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
+      "family": "graphics-laptop",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|576-52|whql|20250519",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-05-19T07:00:00.000Z",
       "redditUrl": "https://redd.it/1kqfdxx",
-      "hasWarning": false,
-      "isStable": false
+      "releaseDate": "May 19, 2025",
+      "releaseDateIso": "2025-05-19",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/576.52/576.52-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1kqfdxx"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "576.52",
+      "warningUrl": ""
     },
     {
-      "version": "576.02",
-      "type": "WHQL",
-      "releaseDate": "Apr 16, 2025",
-      "downloadUrl": null,
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": null,
+      "downloadUrl": "",
+      "family": "graphics-laptop",
+      "hasWarning": true,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|576-02|whql|20250416",
+      "isStable": false,
+      "issueTags": [
+        "known-instability"
+      ],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-04-16T07:00:00.000Z",
       "redditUrl": "https://redd.it/1k0iop7",
-      "hasWarning": true,
-      "warningUrl": "/display/warn?nvsl=576.02",
-      "isStable": false
+      "releaseDate": "Apr 16, 2025",
+      "releaseDateIso": "2025-04-16",
+      "releaseNotesUrl": "",
+      "riskLevel": "high",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "community",
+          "url": "https://redd.it/1k0iop7"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "576.02",
+      "warningUrl": "/display/warn?nvsl=576.02"
     },
     {
-      "version": "572.83",
-      "type": "WHQL",
-      "releaseDate": "Mar 18, 2025",
-      "downloadUrl": null,
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": null,
+      "downloadUrl": "",
+      "family": "graphics-laptop",
+      "hasWarning": true,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|572-83|whql|20250318",
+      "isStable": false,
+      "issueTags": [
+        "known-instability"
+      ],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-03-18T07:00:00.000Z",
       "redditUrl": "https://redd.it/1jeddbc",
-      "hasWarning": true,
-      "warningUrl": "/display/warn?nvsl=572.83",
-      "isStable": false
+      "releaseDate": "Mar 18, 2025",
+      "releaseDateIso": "2025-03-18",
+      "releaseNotesUrl": "",
+      "riskLevel": "high",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "community",
+          "url": "https://redd.it/1jeddbc"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "572.83",
+      "warningUrl": "/display/warn?nvsl=572.83"
     },
     {
-      "version": "572.60",
-      "type": "WHQL",
-      "releaseDate": "Feb 27, 2025",
-      "downloadUrl": null,
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": null,
+      "downloadUrl": "",
+      "family": "graphics-laptop",
+      "hasWarning": true,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|572-60|whql|20250227",
+      "isStable": false,
+      "issueTags": [
+        "known-instability"
+      ],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-02-27T08:00:00.000Z",
       "redditUrl": "https://redd.it/1izfyyw",
-      "hasWarning": true,
-      "warningUrl": "/display/warn?nvsl=572.60",
-      "isStable": false
+      "releaseDate": "Feb 27, 2025",
+      "releaseDateIso": "2025-02-27",
+      "releaseNotesUrl": "",
+      "riskLevel": "high",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "community",
+          "url": "https://redd.it/1izfyyw"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "572.60",
+      "warningUrl": "/display/warn?nvsl=572.60"
     },
     {
-      "version": "572.16",
-      "type": "WHQL",
-      "releaseDate": "Jan 30, 2025",
-      "downloadUrl": null,
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": null,
+      "downloadUrl": "",
+      "family": "graphics-laptop",
+      "hasWarning": true,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|572-16|whql|20250130",
+      "isStable": false,
+      "issueTags": [
+        "known-instability"
+      ],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-01-30T08:00:00.000Z",
       "redditUrl": "https://redd.it/1idme1q",
-      "hasWarning": true,
-      "warningUrl": "/display/warn?nvsl=572.16",
-      "isStable": false
+      "releaseDate": "Jan 30, 2025",
+      "releaseDateIso": "2025-01-30",
+      "releaseNotesUrl": "",
+      "riskLevel": "high",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "community",
+          "url": "https://redd.it/1idme1q"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "572.16",
+      "warningUrl": "/display/warn?nvsl=572.16"
     },
     {
-      "version": "566.36",
-      "type": "WHQL",
-      "releaseDate": "Dec 10, 2024",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/566.36/566.36-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
+      "family": "graphics-laptop",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|566-36|whql|20241210",
+      "isStable": true,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2024-12-10T08:00:00.000Z",
       "redditUrl": "https://redd.it/1h7br0d",
-      "hasWarning": false,
-      "isStable": true
+      "releaseDate": "Dec 10, 2024",
+      "releaseDateIso": "2024-12-10",
+      "releaseNotesUrl": "",
+      "riskLevel": "low",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/566.36/566.36-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1h7br0d"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "566.36",
+      "warningUrl": ""
     },
     {
-      "version": "566.14",
-      "type": "WHQL",
-      "releaseDate": "Nov 12, 2024",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/566.14/566.14-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
+      "family": "graphics-laptop",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|566-14|whql|20241112",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2024-11-12T08:00:00.000Z",
       "redditUrl": "https://redd.it/1gpm868",
-      "hasWarning": false,
-      "isStable": false
+      "releaseDate": "Nov 12, 2024",
+      "releaseDateIso": "2024-11-12",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/566.14/566.14-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1gpm868"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "566.14",
+      "warningUrl": ""
     },
     {
-      "version": "565.90",
-      "type": "WHQL",
-      "releaseDate": "Oct 15, 2024",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/565.90/565.90-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
+      "family": "graphics-laptop",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|565-90|whql|20241015",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2024-10-15T07:00:00.000Z",
       "redditUrl": "https://redd.it/1ftnsvn",
-      "hasWarning": false,
-      "isStable": false
+      "releaseDate": "Oct 15, 2024",
+      "releaseDateIso": "2024-10-15",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/565.90/565.90-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1ftnsvn"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "565.90",
+      "warningUrl": ""
     },
     {
-      "version": "561.09",
-      "type": "WHQL",
-      "releaseDate": "Sep 17, 2024",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/561.09/561.09-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
+      "family": "graphics-laptop",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|561-09|whql|20240917",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2024-09-17T07:00:00.000Z",
       "redditUrl": "https://redd.it/1fededw",
-      "hasWarning": false,
-      "isStable": false
+      "releaseDate": "Sep 17, 2024",
+      "releaseDateIso": "2024-09-17",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/561.09/561.09-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1fededw"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "561.09",
+      "warningUrl": ""
     },
     {
-      "version": "560.81",
-      "type": "WHQL",
-      "releaseDate": "Aug 06, 2024",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/560.81/560.81-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
+      "family": "graphics-laptop",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|560-81|whql|20240806",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2024-08-06T07:00:00.000Z",
       "redditUrl": "https://redd.it/1elhiea",
-      "hasWarning": false,
-      "isStable": false
+      "releaseDate": "Aug 06, 2024",
+      "releaseDateIso": "2024-08-06",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/560.81/560.81-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1elhiea"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "560.81",
+      "warningUrl": ""
     },
     {
-      "version": "560.70",
-      "type": "WHQL",
-      "releaseDate": "Jul 16, 2024",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/560.70/560.70-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
+      "family": "graphics-laptop",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|560-70|whql|20240716",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2024-07-16T07:00:00.000Z",
       "redditUrl": "https://redd.it/1e4pjdm",
-      "hasWarning": false,
-      "isStable": false
+      "releaseDate": "Jul 16, 2024",
+      "releaseDateIso": "2024-07-16",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/560.70/560.70-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1e4pjdm"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "560.70",
+      "warningUrl": ""
     },
     {
-      "version": "555.99",
-      "type": "WHQL",
-      "releaseDate": "Jun 04, 2024",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/555.99/555.99-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
+      "family": "graphics-laptop",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|555-99|whql|20240604",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2024-06-04T07:00:00.000Z",
       "redditUrl": "https://redd.it/1d7xdbv",
-      "hasWarning": false,
-      "isStable": false
+      "releaseDate": "Jun 04, 2024",
+      "releaseDateIso": "2024-06-04",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/555.99/555.99-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1d7xdbv"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "555.99",
+      "warningUrl": ""
     },
     {
-      "version": "555.85",
-      "type": "WHQL",
-      "releaseDate": "May 21, 2024",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/555.85/555.85-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
+      "family": "graphics-laptop",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|555-85|whql|20240521",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2024-05-21T07:00:00.000Z",
       "redditUrl": "https://redd.it/1cx9i85",
-      "hasWarning": false,
-      "isStable": false
+      "releaseDate": "May 21, 2024",
+      "releaseDateIso": "2024-05-21",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/555.85/555.85-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1cx9i85"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "555.85",
+      "warningUrl": ""
     },
     {
-      "version": "552.22",
-      "type": "WHQL",
-      "releaseDate": "Apr 16, 2024",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/552.22/552.22-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
+      "family": "graphics-laptop",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|552-22|whql|20240416",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2024-04-16T07:00:00.000Z",
       "redditUrl": "https://redd.it/1c5g77o",
-      "hasWarning": false,
-      "isStable": false
+      "releaseDate": "Apr 16, 2024",
+      "releaseDateIso": "2024-04-16",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/552.22/552.22-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1c5g77o"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "552.22",
+      "warningUrl": ""
     },
     {
-      "version": "551.86",
-      "type": "WHQL",
-      "releaseDate": "Mar 19, 2024",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/551.86/551.86-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
+      "family": "graphics-laptop",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|551-86|whql|20240319",
+      "isStable": true,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2024-03-19T07:00:00.000Z",
       "redditUrl": "https://redd.it/1bik2v6",
-      "hasWarning": false,
-      "isStable": true
+      "releaseDate": "Mar 19, 2024",
+      "releaseDateIso": "2024-03-19",
+      "releaseNotesUrl": "",
+      "riskLevel": "low",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/551.86/551.86-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1bik2v6"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "551.86",
+      "warningUrl": ""
     },
     {
-      "version": "551.61",
-      "type": "WHQL",
-      "releaseDate": "Feb 22, 2024",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/551.61/551.61-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
+      "family": "graphics-laptop",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|551-61|whql|20240222",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2024-02-22T08:00:00.000Z",
       "redditUrl": "https://redd.it/1ax7xy6",
-      "hasWarning": false,
-      "isStable": false
+      "releaseDate": "Feb 22, 2024",
+      "releaseDateIso": "2024-02-22",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/551.61/551.61-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1ax7xy6"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "551.61",
+      "warningUrl": ""
     },
     {
-      "version": "551.23",
-      "type": "WHQL",
-      "releaseDate": "Jan 24, 2024",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/551.23/551.23-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
+      "family": "graphics-laptop",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|551-23|whql|20240124",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2024-01-24T08:00:00.000Z",
       "redditUrl": "https://redd.it/19ehx1r",
-      "hasWarning": false,
-      "isStable": false
+      "releaseDate": "Jan 24, 2024",
+      "releaseDateIso": "2024-01-24",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/551.23/551.23-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/19ehx1r"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "551.23",
+      "warningUrl": ""
     },
     {
-      "version": "546.33",
-      "type": "WHQL",
-      "releaseDate": "Dec 12, 2023",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/546.33/546.33-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
+      "family": "graphics-laptop",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|546-33|whql|20231212",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2023-12-12T08:00:00.000Z",
       "redditUrl": "https://redd.it/18go5ej",
-      "hasWarning": false,
-      "isStable": false
+      "releaseDate": "Dec 12, 2023",
+      "releaseDateIso": "2023-12-12",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/546.33/546.33-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/18go5ej"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "546.33",
+      "warningUrl": ""
     },
     {
-      "version": "546.01",
-      "type": "WHQL",
-      "releaseDate": "Nov 01, 2023",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/546.01/546.01-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
+      "family": "graphics-laptop",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|546-01|whql|20231101",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2023-11-01T07:00:00.000Z",
       "redditUrl": "https://redd.it/17klmio",
-      "hasWarning": false,
-      "isStable": false
+      "releaseDate": "Nov 01, 2023",
+      "releaseDateIso": "2023-11-01",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/546.01/546.01-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/17klmio"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "546.01",
+      "warningUrl": ""
     },
     {
-      "version": "537.58",
-      "type": "WHQL",
-      "releaseDate": "Oct 10, 2023",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/537.58/537.58-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
+      "family": "graphics-laptop",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|537-58|whql|20231010",
+      "isStable": true,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2023-10-10T07:00:00.000Z",
       "redditUrl": "https://redd.it/174majz",
-      "hasWarning": false,
-      "isStable": true
+      "releaseDate": "Oct 10, 2023",
+      "releaseDateIso": "2023-10-10",
+      "releaseNotesUrl": "",
+      "riskLevel": "low",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/537.58/537.58-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/174majz"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "537.58",
+      "warningUrl": ""
     },
     {
-      "version": "537.42",
-      "type": "WHQL",
-      "releaseDate": "Sep 21, 2023",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/537.42/537.42-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
-      "redditUrl": null,
+      "family": "graphics-laptop",
       "hasWarning": false,
-      "isStable": false
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|537-42|whql|20230921",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2023-09-21T07:00:00.000Z",
+      "redditUrl": "",
+      "releaseDate": "Sep 21, 2023",
+      "releaseDateIso": "2023-09-21",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/537.42/537.42-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "537.42",
+      "warningUrl": ""
     },
     {
-      "version": "536.99",
-      "type": "WHQL",
-      "releaseDate": "Aug 08, 2023",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/536.99/536.99-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
-      "redditUrl": null,
+      "family": "graphics-laptop",
       "hasWarning": false,
-      "isStable": false
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|536-99|whql|20230808",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2023-08-08T07:00:00.000Z",
+      "redditUrl": "",
+      "releaseDate": "Aug 08, 2023",
+      "releaseDateIso": "2023-08-08",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/536.99/536.99-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "536.99",
+      "warningUrl": ""
     },
     {
-      "version": "536.67",
-      "type": "WHQL",
-      "releaseDate": "Jul 18, 2023",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "studio",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/536.67/536.67-notebook-win10-win11-64bit-international-nsd-dch-whql.exe",
-      "redditUrl": null,
+      "family": "graphics-laptop",
       "hasWarning": false,
-      "isStable": false
+      "highlights": [
+        "WHQL",
+        "Tuned for creator workloads"
+      ],
+      "id": "nvidia|graphics-laptop|studio|536-67|whql|20230718",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2023-07-18T07:00:00.000Z",
+      "redditUrl": "",
+      "releaseDate": "Jul 18, 2023",
+      "releaseDateIso": "2023-07-18",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/536.67/536.67-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "536.67",
+      "warningUrl": ""
     }
   ]
 }

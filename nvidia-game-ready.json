@@ -1,343 +1,1891 @@
 {
-  "lastUpdated": "11-23-25",
+  "lastUpdated": "03-10-26",
   "warningMessage": "Nvidia drivers <a href=\"https://youtu.be/KrCEPX47vtw\" target=\"_blank\">576.02</a> and ones based on the 572.xx versions have known <a href=\"https://youtu.be/NTXoUsdSAnA\" target=\"_blank\"><u>instability issues</u></a>. It is recommended to install 566.36 or lower for stability.",
   "drivers": [
     {
-      "version": "581.94",
-      "type": "HOTFIX",
-      "releaseDate": "Nov 19, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "EEEF0A62BED0AFAA5C08B31DCFD666166986BAFE7AA27A89F2CECF113363602A"
+      },
+      "downloadUrl": "https://us.download.nvidia.com/Windows/595.79/595.79-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|595-79|whql|20260310",
+      "isStable": false,
+      "issueTags": [
+        "known-issues"
+      ],
+      "knownIssuesUrl": "https://us.download.nvidia.com/Windows/595.79/595.79-win11-win10-release-notes.pdf",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2026-03-10T07:00:00.000Z",
+      "redditUrl": "https://redd.it/1rq06sx",
+      "releaseDate": "Mar 10, 2026",
+      "releaseDateIso": "2026-03-10",
+      "releaseNotesUrl": "https://us.download.nvidia.com/Windows/595.79/595.79-win11-win10-release-notes.pdf",
+      "riskLevel": "medium",
+      "sha256sum": "EEEF0A62BED0AFAA5C08B31DCFD666166986BAFE7AA27A89F2CECF113363602A",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/595.79/595.79-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "release-notes",
+          "url": "https://us.download.nvidia.com/Windows/595.79/595.79-win11-win10-release-notes.pdf"
+        },
+        {
+          "type": "known-issues",
+          "url": "https://us.download.nvidia.com/Windows/595.79/595.79-win11-win10-release-notes.pdf"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1rq06sx"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "595.79",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "4AB235C4E01EA13CEDC59AC339DB0BE1B5BA7C89E00E6253AB89F354F7711982"
+      },
+      "downloadUrl": "https://us.download.nvidia.com/Windows/595.71/595.71-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": true,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|595-71|whql|20260302",
+      "isStable": false,
+      "issueTags": [
+        "known-instability",
+        "known-issues"
+      ],
+      "knownIssuesUrl": "https://us.download.nvidia.com/Windows/595.71/595.71-win11-win10-release-notes.pdf",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2026-03-02T08:00:00.000Z",
+      "redditUrl": "https://redd.it/1ritsbd",
+      "releaseDate": "Mar 02, 2026",
+      "releaseDateIso": "2026-03-02",
+      "releaseNotesUrl": "https://us.download.nvidia.com/Windows/595.71/595.71-win11-win10-release-notes.pdf",
+      "riskLevel": "high",
+      "sha256sum": "4AB235C4E01EA13CEDC59AC339DB0BE1B5BA7C89E00E6253AB89F354F7711982",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/595.71/595.71-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "release-notes",
+          "url": "https://us.download.nvidia.com/Windows/595.71/595.71-win11-win10-release-notes.pdf"
+        },
+        {
+          "type": "known-issues",
+          "url": "https://us.download.nvidia.com/Windows/595.71/595.71-win11-win10-release-notes.pdf"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1ritsbd"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "595.71",
+      "warningUrl": "/display/warn?nvgrd=595.71"
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "A50C89C9D254F33CC8A8E638F7CC1981A76263005FCEC102AD8C8B45626D53E0"
+      },
+      "downloadUrl": "https://us.download.nvidia.com/Windows/591.86/591.86-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|591-86|whql|20260127",
+      "isStable": false,
+      "issueTags": [
+        "known-issues"
+      ],
+      "knownIssuesUrl": "https://us.download.nvidia.com/Windows/591.86/591.86-win11-win10-release-notes.pdf",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2026-01-27T08:00:00.000Z",
+      "redditUrl": "https://redd.it/1qoemdy",
+      "releaseDate": "Jan 27, 2026",
+      "releaseDateIso": "2026-01-27",
+      "releaseNotesUrl": "https://us.download.nvidia.com/Windows/591.86/591.86-win11-win10-release-notes.pdf",
+      "riskLevel": "medium",
+      "sha256sum": "A50C89C9D254F33CC8A8E638F7CC1981A76263005FCEC102AD8C8B45626D53E0",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/591.86/591.86-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "release-notes",
+          "url": "https://us.download.nvidia.com/Windows/591.86/591.86-win11-win10-release-notes.pdf"
+        },
+        {
+          "type": "known-issues",
+          "url": "https://us.download.nvidia.com/Windows/591.86/591.86-win11-win10-release-notes.pdf"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1qoemdy"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "591.86",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "FDD72E867B193A35BD35A317ABD9F3C29CCA7469824BE857942BDCE709F66583"
+      },
+      "downloadUrl": "https://us.download.nvidia.com/Windows/591.74/591.74-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|591-74|whql|20260105",
+      "isStable": true,
+      "issueTags": [
+        "known-issues"
+      ],
+      "knownIssuesUrl": "https://us.download.nvidia.com/Windows/591.74/591.74-win11-win10-release-notes.pdf",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2026-01-05T08:00:00.000Z",
+      "redditUrl": "https://redd.it/1q5a3zx",
+      "releaseDate": "Jan 05, 2026",
+      "releaseDateIso": "2026-01-05",
+      "releaseNotesUrl": "https://us.download.nvidia.com/Windows/591.74/591.74-win11-win10-release-notes.pdf",
+      "riskLevel": "low",
+      "sha256sum": "FDD72E867B193A35BD35A317ABD9F3C29CCA7469824BE857942BDCE709F66583",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/591.74/591.74-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "release-notes",
+          "url": "https://us.download.nvidia.com/Windows/591.74/591.74-win11-win10-release-notes.pdf"
+        },
+        {
+          "type": "known-issues",
+          "url": "https://us.download.nvidia.com/Windows/591.74/591.74-win11-win10-release-notes.pdf"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1q5a3zx"
+        }
+      ],
+      "stabilityGrade": "A",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "591.74",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "6DF5A901485F0D13234416346D1607CF6F13BC5E89026C7643F9DAD90238A895"
+      },
+      "downloadUrl": "https://us.download.nvidia.com/Windows/591.59/591.59-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|591-59|whql|20251218",
+      "isStable": false,
+      "issueTags": [
+        "known-issues"
+      ],
+      "knownIssuesUrl": "https://us.download.nvidia.com/Windows/591.59/591.59-win11-win10-release-notes.pdf",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-12-18T08:00:00.000Z",
+      "redditUrl": "https://redd.it/1ppte14",
+      "releaseDate": "Dec 18, 2025",
+      "releaseDateIso": "2025-12-18",
+      "releaseNotesUrl": "https://us.download.nvidia.com/Windows/591.59/591.59-win11-win10-release-notes.pdf",
+      "riskLevel": "medium",
+      "sha256sum": "6DF5A901485F0D13234416346D1607CF6F13BC5E89026C7643F9DAD90238A895",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/591.59/591.59-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "release-notes",
+          "url": "https://us.download.nvidia.com/Windows/591.59/591.59-win11-win10-release-notes.pdf"
+        },
+        {
+          "type": "known-issues",
+          "url": "https://us.download.nvidia.com/Windows/591.59/591.59-win11-win10-release-notes.pdf"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1ppte14"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "591.59",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "3F103B9673A75B502FA9AD9968531E3962AF7A8EFAB9D887D11EA9AD0C4E14A8"
+      },
+      "downloadUrl": "https://us.download.nvidia.com/Windows/591.44/591.44-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|591-44|whql|20251204",
+      "isStable": false,
+      "issueTags": [
+        "known-issues"
+      ],
+      "knownIssuesUrl": "https://us.download.nvidia.com/Windows/591.44/591.44-win11-win10-release-notes.pdf",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-12-04T08:00:00.000Z",
+      "redditUrl": "https://redd.it/1pe3ids",
+      "releaseDate": "Dec 04, 2025",
+      "releaseDateIso": "2025-12-04",
+      "releaseNotesUrl": "https://us.download.nvidia.com/Windows/591.44/591.44-win11-win10-release-notes.pdf",
+      "riskLevel": "medium",
+      "sha256sum": "3F103B9673A75B502FA9AD9968531E3962AF7A8EFAB9D887D11EA9AD0C4E14A8",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/591.44/591.44-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "release-notes",
+          "url": "https://us.download.nvidia.com/Windows/591.44/591.44-win11-win10-release-notes.pdf"
+        },
+        {
+          "type": "known-issues",
+          "url": "https://us.download.nvidia.com/Windows/591.44/591.44-win11-win10-release-notes.pdf"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1pe3ids"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "591.44",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "B596920F9C8FA4BE09D122EB39506282A46C4113E90DA6F48C0E00D26686F7E6"
+      },
       "downloadUrl": "https://international.download.nvidia.com/Windows/581.94hf/581.94-desktop-notebook-win10-win11-64bit-international-dch.hf.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "HOTFIX",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|581-94|hotfix|20251119",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-11-19T08:00:00.000Z",
       "redditUrl": "https://redd.it/1p1y1ms",
-      "hasWarning": false,
-      "isStable": false,
-      "stabilityGrade": null,
-      "sha256sum": "B596920F9C8FA4BE09D122EB39506282A46C4113E90DA6F48C0E00D26686F7E6"
+      "releaseDate": "Nov 19, 2025",
+      "releaseDateIso": "2025-11-19",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "B596920F9C8FA4BE09D122EB39506282A46C4113E90DA6F48C0E00D26686F7E6",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://international.download.nvidia.com/Windows/581.94hf/581.94-desktop-notebook-win10-win11-64bit-international-dch.hf.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1p1y1ms"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "HOTFIX",
+      "vendor": "nvidia",
+      "version": "581.94",
+      "warningUrl": ""
     },
     {
-      "version": "581.80",
-      "type": "WHQL",
-      "releaseDate": "Nov 04, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "0A08462764F4D36EEECB8DA6ABFC01A6E32C94359B9E1E3287399F057C1D2839"
+      },
       "downloadUrl": "https://us.download.nvidia.com/Windows/581.80/581.80-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|581-80|whql|20251104",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-11-04T08:00:00.000Z",
       "redditUrl": "https://redd.it/1oo8hkj",
-      "hasWarning": false,
-      "isStable": false,
-      "stabilityGrade": null,
-      "sha256sum": "0A08462764F4D36EEECB8DA6ABFC01A6E32C94359B9E1E3287399F057C1D2839"
+      "releaseDate": "Nov 04, 2025",
+      "releaseDateIso": "2025-11-04",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "0A08462764F4D36EEECB8DA6ABFC01A6E32C94359B9E1E3287399F057C1D2839",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/581.80/581.80-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1oo8hkj"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "581.80",
+      "warningUrl": ""
     },
     {
-      "version": "581.57",
-      "type": "WHQL",
-      "releaseDate": "Oct 14, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "C18887EE37A5D3AEC58DB83C2057C199E81143FEF0FA99121528E4D319339D7E"
+      },
       "downloadUrl": "https://us.download.nvidia.com/Windows/581.57/581.57-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|581-57|whql|20251014",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-10-14T07:00:00.000Z",
       "redditUrl": "https://redd.it/1o6dpc1",
-      "hasWarning": false,
-      "isStable": false,
-      "stabilityGrade": null,
-      "sha256sum": "C18887EE37A5D3AEC58DB83C2057C199E81143FEF0FA99121528E4D319339D7E"
+      "releaseDate": "Oct 14, 2025",
+      "releaseDateIso": "2025-10-14",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "C18887EE37A5D3AEC58DB83C2057C199E81143FEF0FA99121528E4D319339D7E",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/581.57/581.57-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1o6dpc1"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "581.57",
+      "warningUrl": ""
     },
     {
-      "version": "581.42",
-      "type": "WHQL",
-      "releaseDate": "Sep 30, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "E8CEB70A8AF8BAC5F6C0CABF0501147B85B69D54B97C0CF9A3C9B1EF2ED8BCA1"
+      },
       "downloadUrl": "https://us.download.nvidia.com/Windows/581.42/581.42-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|581-42|whql|20250930",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-09-30T07:00:00.000Z",
       "redditUrl": "https://redd.it/1nuclzo",
-      "hasWarning": false,
-      "isStable": false,
-      "stabilityGrade": null,
-      "sha256sum": "e8ceb70a8af8bac5f6c0cabf0501147b85b69d54b97c0cf9a3c9b1ef2ed8bca1"
+      "releaseDate": "Sep 30, 2025",
+      "releaseDateIso": "2025-09-30",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "E8CEB70A8AF8BAC5F6C0CABF0501147B85B69D54B97C0CF9A3C9B1EF2ED8BCA1",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/581.42/581.42-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1nuclzo"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "581.42",
+      "warningUrl": ""
     },
     {
-      "version": "581.29",
-      "type": "WHQL",
-      "releaseDate": "Sep 10, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "A7A96C0FB957F013FCD33F8772AA68AD8C55013A6D3673639BB7E1473057258B"
+      },
       "downloadUrl": "https://us.download.nvidia.com/Windows/581.29/581.29-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|581-29|whql|20250910",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-09-10T07:00:00.000Z",
       "redditUrl": "https://redd.it/1ndc1v3",
-      "hasWarning": false,
-      "isStable": false,
-      "stabilityGrade": null,
-      "sha256sum": "A7A96C0FB957F013FCD33F8772AA68AD8C55013A6D3673639BB7E1473057258B"
+      "releaseDate": "Sep 10, 2025",
+      "releaseDateIso": "2025-09-10",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "A7A96C0FB957F013FCD33F8772AA68AD8C55013A6D3673639BB7E1473057258B",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/581.29/581.29-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1ndc1v3"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "581.29",
+      "warningUrl": ""
     },
     {
-      "version": "581.15",
-      "type": "WHQL",
-      "releaseDate": "Aug 28, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "5D06D281538C9C98C3999E0B3C3DD5A674D592C44770475474B6232F72A0BBBD"
+      },
       "downloadUrl": "https://us.download.nvidia.com/Windows/581.15/581.15-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|581-15|whql|20250828",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-08-28T07:00:00.000Z",
       "redditUrl": "https://redd.it/1n2ep5p",
-      "hasWarning": false,
-      "isStable": false,
-      "stabilityGrade": null,
-      "sha256sum": "5D06D281538C9C98C3999E0B3C3DD5A674D592C44770475474B6232F72A0BBBD"
+      "releaseDate": "Aug 28, 2025",
+      "releaseDateIso": "2025-08-28",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "5D06D281538C9C98C3999E0B3C3DD5A674D592C44770475474B6232F72A0BBBD",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/581.15/581.15-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1n2ep5p"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "581.15",
+      "warningUrl": ""
     },
     {
-      "version": "581.08",
-      "type": "WHQL",
-      "releaseDate": "Aug 19, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "99354507EA54E8EB032B08EC1774B609F0A29AF38D7A03B76E3E57FA94622B42"
+      },
       "downloadUrl": "https://us.download.nvidia.com/Windows/581.08/581.08-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|581-08|whql|20250819",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-08-19T07:00:00.000Z",
       "redditUrl": "https://redd.it/1muhs44",
-      "hasWarning": false,
-      "isStable": false,
-      "stabilityGrade": null,
-      "sha256sum": "99354507ea54e8eb032b08ec1774b609f0a29af38d7a03b76e3e57fa94622b42"
+      "releaseDate": "Aug 19, 2025",
+      "releaseDateIso": "2025-08-19",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "99354507EA54E8EB032B08EC1774B609F0A29AF38D7A03B76E3E57FA94622B42",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/581.08/581.08-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1muhs44"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "581.08",
+      "warningUrl": ""
     },
     {
-      "version": "580.97",
-      "type": "WHQL",
-      "releaseDate": "Aug 12, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "081878A323FC24B8EC4F7C9B0E72E22AD6F9AE73219A6FAC324B59CD6258D076"
+      },
       "downloadUrl": "https://us.download.nvidia.com/Windows/580.97/580.97-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|580-97|whql|20250812",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-08-12T07:00:00.000Z",
       "redditUrl": "https://redd.it/1mo5uzw",
-      "hasWarning": false,
-      "isStable": false,
-      "stabilityGrade": null,
-      "sha256sum": "081878a323fc24b8ec4f7c9b0e72e22ad6f9ae73219a6fac324b59cd6258d076"
-    },
-      {
-      "version": "580.88",
+      "releaseDate": "Aug 12, 2025",
+      "releaseDateIso": "2025-08-12",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "081878A323FC24B8EC4F7C9B0E72E22AD6F9AE73219A6FAC324B59CD6258D076",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/580.97/580.97-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1mo5uzw"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
       "type": "WHQL",
-      "releaseDate": "Jul 31, 2025",
+      "vendor": "nvidia",
+      "version": "580.97",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "90C49F925B41EE062E02CC8094A16B6D057ABFDE4E85235A76D63FFE267F63A9"
+      },
       "downloadUrl": "https://us.download.nvidia.com/Windows/580.88/580.88-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|580-88|whql|20250731",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-07-31T07:00:00.000Z",
       "redditUrl": "https://redd.it/1me1j6n",
-      "hasWarning": false,
-      "isStable": false,
-      "stabilityGrade": null,
-      "sha256sum": "90c49f925b41ee062e02cc8094a16b6d057abfde4e85235a76d63ffe267f63a9"
+      "releaseDate": "Jul 31, 2025",
+      "releaseDateIso": "2025-07-31",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "90C49F925B41EE062E02CC8094A16B6D057ABFDE4E85235A76D63FFE267F63A9",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/580.88/580.88-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1me1j6n"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "580.88",
+      "warningUrl": ""
     },
     {
-      "version": "577.00",
-      "type": "WHQL",
-      "releaseDate": "Jul 22, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "A66442AF77CDB57E24BF80BAA46CE88B8AA5D9CC61E71AC0BD5FE5068E065BF5"
+      },
       "downloadUrl": "https://us.download.nvidia.com/Windows/577.00/577.00-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|577-00|whql|20250722",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-07-22T07:00:00.000Z",
       "redditUrl": "https://redd.it/1m6f19v",
-      "hasWarning": false,
-      "isStable": false,
-      "stabilityGrade": null,
-      "sha256sum": "A66442AF77CDB57E24BF80BAA46CE88B8AA5D9CC61E71AC0BD5FE5068E065BF5"
+      "releaseDate": "Jul 22, 2025",
+      "releaseDateIso": "2025-07-22",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "A66442AF77CDB57E24BF80BAA46CE88B8AA5D9CC61E71AC0BD5FE5068E065BF5",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/577.00/577.00-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1m6f19v"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "577.00",
+      "warningUrl": ""
     },
     {
-      "version": "576.88",
-      "type": "WHQL",
-      "releaseDate": "Jul 01, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/576.88/576.88-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|576-88|whql|20250701",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-07-01T07:00:00.000Z",
       "redditUrl": "https://redd.it/1lp13tz",
-      "hasWarning": false,
-      "isStable": false,
-      "stabilityGrade": null
+      "releaseDate": "Jul 01, 2025",
+      "releaseDateIso": "2025-07-01",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/576.88/576.88-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1lp13tz"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "576.88",
+      "warningUrl": ""
     },
     {
-      "version": "576.80",
-      "type": "WHQL",
-      "releaseDate": "Jun 17, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/576.80/576.80-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|576-80|whql|20250617",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-06-17T07:00:00.000Z",
       "redditUrl": "https://redd.it/1ldmjk7",
-      "hasWarning": false,
-      "isStable": false,
-      "stabilityGrade": null
+      "releaseDate": "Jun 17, 2025",
+      "releaseDateIso": "2025-06-17",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/576.80/576.80-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1ldmjk7"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "576.80",
+      "warningUrl": ""
     },
     {
-      "version": "576.52",
-      "type": "WHQL",
-      "releaseDate": "May 19, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/576.52/576.52-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|576-52|whql|20250519",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-05-19T07:00:00.000Z",
       "redditUrl": "https://redd.it/1kqfdxx",
-      "hasWarning": false,
-      "isStable": false,
-      "stabilityGrade": null
+      "releaseDate": "May 19, 2025",
+      "releaseDateIso": "2025-05-19",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/576.52/576.52-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1kqfdxx"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "576.52",
+      "warningUrl": ""
     },
     {
-      "version": "576.40",
-      "type": "WHQL",
-      "releaseDate": "May 12, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/576.40/576.40-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|576-40|whql|20250512",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-05-12T07:00:00.000Z",
       "redditUrl": "https://redd.it/1kks09d",
-      "hasWarning": false,
-      "isStable": false,
-      "stabilityGrade": null
+      "releaseDate": "May 12, 2025",
+      "releaseDateIso": "2025-05-12",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/576.40/576.40-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1kks09d"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "576.40",
+      "warningUrl": ""
     },
     {
-      "version": "576.28",
-      "type": "WHQL",
-      "releaseDate": "Apr 30, 2025",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/576.28/576.28-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|576-28|whql|20250430",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-04-30T07:00:00.000Z",
       "redditUrl": "https://redd.it/1kbhda6",
-      "hasWarning": false,
-      "isStable": false,
-      "stabilityGrade": null
+      "releaseDate": "Apr 30, 2025",
+      "releaseDateIso": "2025-04-30",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/576.28/576.28-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1kbhda6"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "576.28",
+      "warningUrl": ""
     },
     {
-      "version": "576.02",
-      "type": "WHQL",
-      "releaseDate": "Apr 16, 2025",
-      "downloadUrl": null,
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": null,
+      "downloadUrl": "",
+      "family": "graphics",
+      "hasWarning": true,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|576-02|whql|20250416",
+      "isStable": false,
+      "issueTags": [
+        "known-instability"
+      ],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-04-16T07:00:00.000Z",
       "redditUrl": "https://redd.it/1k0iop7",
-      "hasWarning": true,
-      "warningUrl": "/display/warn?nvgrd=576.02",
-      "isStable": false,
-      "stabilityGrade": null
+      "releaseDate": "Apr 16, 2025",
+      "releaseDateIso": "2025-04-16",
+      "releaseNotesUrl": "",
+      "riskLevel": "high",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "community",
+          "url": "https://redd.it/1k0iop7"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "576.02",
+      "warningUrl": "/display/warn?nvgrd=576.02"
     },
     {
-      "version": "572.83",
-      "type": "WHQL",
-      "releaseDate": "Mar 18, 2025",
-      "downloadUrl": null,
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": null,
+      "downloadUrl": "",
+      "family": "graphics",
+      "hasWarning": true,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|572-83|whql|20250318",
+      "isStable": false,
+      "issueTags": [
+        "known-instability"
+      ],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-03-18T07:00:00.000Z",
       "redditUrl": "https://redd.it/1jeddbc",
-      "hasWarning": true,
-      "warningUrl": "/display/warn?nvgrd=572.83",
-      "isStable": false,
-      "stabilityGrade": null
+      "releaseDate": "Mar 18, 2025",
+      "releaseDateIso": "2025-03-18",
+      "releaseNotesUrl": "",
+      "riskLevel": "high",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "community",
+          "url": "https://redd.it/1jeddbc"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "572.83",
+      "warningUrl": "/display/warn?nvgrd=572.83"
     },
     {
-      "version": "572.70",
-      "type": "WHQL",
-      "releaseDate": "Mar 05, 2025",
-      "downloadUrl": null,
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": null,
+      "downloadUrl": "",
+      "family": "graphics",
+      "hasWarning": true,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|572-70|whql|20250305",
+      "isStable": false,
+      "issueTags": [
+        "known-instability"
+      ],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-03-05T08:00:00.000Z",
       "redditUrl": "https://redd.it/1j4284t",
-      "hasWarning": true,
-      "warningUrl": "/display/warn?nvgrd=572.70",
-      "isStable": false,
-      "stabilityGrade": null
+      "releaseDate": "Mar 05, 2025",
+      "releaseDateIso": "2025-03-05",
+      "releaseNotesUrl": "",
+      "riskLevel": "high",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "community",
+          "url": "https://redd.it/1j4284t"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "572.70",
+      "warningUrl": "/display/warn?nvgrd=572.70"
     },
     {
-      "version": "572.60",
-      "type": "WHQL",
-      "releaseDate": "Feb 27, 2025",
-      "downloadUrl": null,
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": null,
+      "downloadUrl": "",
+      "family": "graphics",
+      "hasWarning": true,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|572-60|whql|20250227",
+      "isStable": false,
+      "issueTags": [
+        "known-instability"
+      ],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-02-27T08:00:00.000Z",
       "redditUrl": "https://redd.it/1izfyyw",
-      "hasWarning": true,
-      "warningUrl": "/display/warn?nvgrd=572.60",
-      "isStable": false,
-      "stabilityGrade": null
+      "releaseDate": "Feb 27, 2025",
+      "releaseDateIso": "2025-02-27",
+      "releaseNotesUrl": "",
+      "riskLevel": "high",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "community",
+          "url": "https://redd.it/1izfyyw"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "572.60",
+      "warningUrl": "/display/warn?nvgrd=572.60"
     },
     {
-      "version": "572.47",
-      "type": "WHQL",
-      "releaseDate": "Feb 20, 2025",
-      "downloadUrl": null,
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": null,
+      "downloadUrl": "",
+      "family": "graphics",
+      "hasWarning": true,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|572-47|whql|20250220",
+      "isStable": false,
+      "issueTags": [
+        "known-instability"
+      ],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-02-20T08:00:00.000Z",
       "redditUrl": "https://redd.it/1itydor",
-      "hasWarning": true,
-      "warningUrl": "/display/warn?nvgrd=572.47",
-      "isStable": false,
-      "stabilityGrade": null
+      "releaseDate": "Feb 20, 2025",
+      "releaseDateIso": "2025-02-20",
+      "releaseNotesUrl": "",
+      "riskLevel": "high",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "community",
+          "url": "https://redd.it/1itydor"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "572.47",
+      "warningUrl": "/display/warn?nvgrd=572.47"
     },
     {
-      "version": "572.42",
-      "type": "WHQL",
-      "releaseDate": "Feb 13, 2025",
-      "downloadUrl": null,
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": null,
+      "downloadUrl": "",
+      "family": "graphics",
+      "hasWarning": true,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|572-42|whql|20250213",
+      "isStable": false,
+      "issueTags": [
+        "known-instability"
+      ],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-02-13T08:00:00.000Z",
       "redditUrl": "https://redd.it/1ioiqls",
-      "hasWarning": true,
-      "warningUrl": "/display/warn?nvgrd=572.42",
-      "isStable": false,
-      "stabilityGrade": null
+      "releaseDate": "Feb 13, 2025",
+      "releaseDateIso": "2025-02-13",
+      "releaseNotesUrl": "",
+      "riskLevel": "high",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "community",
+          "url": "https://redd.it/1ioiqls"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "572.42",
+      "warningUrl": "/display/warn?nvgrd=572.42"
     },
     {
-      "version": "572.16",
-      "type": "WHQL",
-      "releaseDate": "Jan 30, 2025",
-      "downloadUrl": null,
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": null,
+      "downloadUrl": "",
+      "family": "graphics",
+      "hasWarning": true,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|572-16|whql|20250130",
+      "isStable": false,
+      "issueTags": [
+        "known-instability"
+      ],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2025-01-30T08:00:00.000Z",
       "redditUrl": "https://redd.it/1idme1q",
-      "hasWarning": true,
-      "warningUrl": "/display/warn?nvgrd=572.16",
-      "isStable": false,
-      "stabilityGrade": null
+      "releaseDate": "Jan 30, 2025",
+      "releaseDateIso": "2025-01-30",
+      "releaseNotesUrl": "",
+      "riskLevel": "high",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "community",
+          "url": "https://redd.it/1idme1q"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "572.16",
+      "warningUrl": "/display/warn?nvgrd=572.16"
     },
     {
-      "version": "566.36",
-      "type": "WHQL",
-      "releaseDate": "Dec 05, 2024",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/566.36/566.36-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Stable A-",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|566-36|whql|20241205",
+      "isStable": true,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2024-12-05T08:00:00.000Z",
       "redditUrl": "https://redd.it/1h7br0d",
-      "hasWarning": false,
-      "isStable": true,
-      "stabilityGrade": "A-"
+      "releaseDate": "Dec 05, 2024",
+      "releaseDateIso": "2024-12-05",
+      "releaseNotesUrl": "",
+      "riskLevel": "low",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/566.36/566.36-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1h7br0d"
+        }
+      ],
+      "stabilityGrade": "A-",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "566.36",
+      "warningUrl": ""
     },
     {
-      "version": "566.14",
-      "type": "WHQL",
-      "releaseDate": "Nov 12, 2024",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/566.14/566.14-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|566-14|whql|20241112",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2024-11-12T08:00:00.000Z",
       "redditUrl": "https://redd.it/1gpm868",
-      "hasWarning": false,
-      "isStable": false,
-      "stabilityGrade": null
+      "releaseDate": "Nov 12, 2024",
+      "releaseDateIso": "2024-11-12",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/566.14/566.14-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1gpm868"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "566.14",
+      "warningUrl": ""
     },
     {
-      "version": "566.03",
-      "type": "WHQL",
-      "releaseDate": "Oct 22, 2024",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/566.03/566.03-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|566-03|whql|20241022",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2024-10-22T07:00:00.000Z",
       "redditUrl": "https://redd.it/1g9i6ot",
-      "hasWarning": false,
-      "isStable": false,
-      "stabilityGrade": null
+      "releaseDate": "Oct 22, 2024",
+      "releaseDateIso": "2024-10-22",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/566.03/566.03-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1g9i6ot"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "566.03",
+      "warningUrl": ""
     },
     {
-      "version": "565.90",
-      "type": "WHQL",
-      "releaseDate": "Oct 01, 2024",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/565.90/565.90-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|565-90|whql|20241001",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2024-10-01T07:00:00.000Z",
       "redditUrl": "https://redd.it/1ftnsvn",
-      "hasWarning": false,
-      "isStable": false,
-      "stabilityGrade": null
+      "releaseDate": "Oct 01, 2024",
+      "releaseDateIso": "2024-10-01",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/565.90/565.90-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1ftnsvn"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "565.90",
+      "warningUrl": ""
     },
     {
-      "version": "561.09",
-      "type": "WHQL",
-      "releaseDate": "Sep 11, 2024",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/561.09/561.09-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|561-09|whql|20240911",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2024-09-11T07:00:00.000Z",
       "redditUrl": "https://redd.it/1fededw",
-      "hasWarning": false,
-      "isStable": false,
-      "stabilityGrade": null
+      "releaseDate": "Sep 11, 2024",
+      "releaseDateIso": "2024-09-11",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/561.09/561.09-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1fededw"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "561.09",
+      "warningUrl": ""
     },
     {
-      "version": "560.94",
-      "type": "WHQL",
-      "releaseDate": "Aug 20, 2024",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/560.94/560.94-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|560-94|whql|20240820",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2024-08-20T07:00:00.000Z",
       "redditUrl": "https://redd.it/1ewv0ib",
-      "hasWarning": false,
-      "isStable": false,
-      "stabilityGrade": null
+      "releaseDate": "Aug 20, 2024",
+      "releaseDateIso": "2024-08-20",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/560.94/560.94-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1ewv0ib"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "560.94",
+      "warningUrl": ""
     },
     {
-      "version": "560.81",
-      "type": "WHQL",
-      "releaseDate": "Aug 06, 2024",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/560.81/560.81-desktop-win10-win11-64bit-international-dch-whql.exe",
-      "redditUrl": "https://redd.it/1elhiea",
+      "family": "graphics",
       "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|560-81|whql|20240806",
       "isStable": false,
-      "stabilityGrade": null
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2024-08-06T07:00:00.000Z",
+      "redditUrl": "https://redd.it/1elhiea",
+      "releaseDate": "Aug 06, 2024",
+      "releaseDateIso": "2024-08-06",
+      "releaseNotesUrl": "",
+      "riskLevel": "medium",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/560.81/560.81-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1elhiea"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "560.81",
+      "warningUrl": ""
     },
     {
-      "version": "556.12",
-      "type": "WHQL",
-      "releaseDate": "Jun 27, 2024",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/556.12/556.12-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Stable A-",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|556-12|whql|20240627",
+      "isStable": true,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2024-06-27T07:00:00.000Z",
       "redditUrl": "https://redd.it/1dpqpo4",
-      "hasWarning": false,
-      "isStable": true,
-      "stabilityGrade": "A-"
+      "releaseDate": "Jun 27, 2024",
+      "releaseDateIso": "2024-06-27",
+      "releaseNotesUrl": "",
+      "riskLevel": "low",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/556.12/556.12-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1dpqpo4"
+        }
+      ],
+      "stabilityGrade": "A-",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "556.12",
+      "warningUrl": ""
     },
     {
-      "version": "551.86",
-      "type": "WHQL",
-      "releaseDate": "Mar 19, 2024",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/551.86/551.86-desktop-win10-win11-64bit-international-dch-whql.exe",
-      "redditUrl": "https://redd.it/1bik2v6",
+      "family": "graphics",
       "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Stable A",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|551-86|whql|20240319",
       "isStable": true,
-      "stabilityGrade": "A"
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2024-03-19T07:00:00.000Z",
+      "redditUrl": "https://redd.it/1bik2v6",
+      "releaseDate": "Mar 19, 2024",
+      "releaseDateIso": "2024-03-19",
+      "releaseNotesUrl": "",
+      "riskLevel": "low",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/551.86/551.86-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1bik2v6"
+        }
+      ],
+      "stabilityGrade": "A",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "551.86",
+      "warningUrl": ""
     },
     {
-      "version": "537.58",
-      "type": "WHQL",
-      "releaseDate": "Oct 10, 2023",
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": null,
       "downloadUrl": "https://us.download.nvidia.com/Windows/537.58/537.58-desktop-win10-win11-64bit-international-dch-whql.exe",
-      "redditUrl": "https://redd.it/174majz",
+      "family": "graphics",
       "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Stable A+",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|537-58|whql|20231010",
       "isStable": true,
-      "stabilityGrade": "A+"
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2023-10-10T07:00:00.000Z",
+      "redditUrl": "https://redd.it/174majz",
+      "releaseDate": "Oct 10, 2023",
+      "releaseDateIso": "2023-10-10",
+      "releaseNotesUrl": "",
+      "riskLevel": "low",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/537.58/537.58-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/174majz"
+        }
+      ],
+      "stabilityGrade": "A+",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "537.58",
+      "warningUrl": ""
     }
   ]
 }
