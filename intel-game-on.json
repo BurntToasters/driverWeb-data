@@ -31,7 +31,7 @@
       "releaseDate": "Feb 25, 2026",
       "releaseDateIso": "2026-02-25",
       "releaseNotesUrl": "https://www.intel.com/content/www/us/en/download/785597/intel-arc-graphics-windows.html",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "D902CA73F470E88AF606F96B125E62079264FA7D9D41B352C895CAC4C3655C94",
       "sources": [
         {
@@ -90,7 +90,7 @@
       "releaseDate": "Feb 13, 2026",
       "releaseDateIso": "2026-02-13",
       "releaseNotesUrl": "https://www.intel.com/content/www/us/en/download/785597/874365/intel-arc-graphics-windows.html",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "EC3123DEE34B8B1FF5E73D83D370B36914CFC3D0D19C5B7923B7DE5250B9F5CA",
       "sources": [
         {
@@ -145,7 +145,7 @@
       "releaseDate": "Jan 1, 2026",
       "releaseDateIso": "2026-01-01",
       "releaseNotesUrl": "https://www.intel.com/content/www/us/en/download/785597/873358/intel-arc-graphics-windows.html",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "2E6C6A7D9734D18FC890811A781EE14B4403C2CB33926E3DC6F274D93337BEDF",
       "sources": [
         {
@@ -204,7 +204,7 @@
       "releaseDate": "Dec 3, 2025",
       "releaseDateIso": "2025-12-03",
       "releaseNotesUrl": "https://www.intel.com/content/www/us/en/download/785597/870567/intel-arc-graphics-windows.html",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "3A66307EEBBDE7FDA8BAA05AD4AE4A78BF6D0587C48B78C8353D0701CB510950",
       "sources": [
         {
@@ -259,7 +259,7 @@
       "releaseDate": "Nov 11, 2025",
       "releaseDateIso": "2025-11-11",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "732F38139AF5033FCF387F8C7182FBE996B61B95B5D9E001CB123E76A0CD79ED",
       "sources": [
         {
@@ -308,7 +308,7 @@
       "releaseDate": "Oct 29, 2025",
       "releaseDateIso": "2025-10-29",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "31AE6BF91D2A80164CA09A33222E6B38AEDE0A16F2728C791B7515AF7DDBD7A1",
       "sources": [
         {
@@ -355,7 +355,7 @@
       "releaseDate": "Oct 23, 2025",
       "releaseDateIso": "2025-10-23",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "AB9C399742435ACA0B0A0EE05FEB9260B4C9271F36891ED420F0B2723B9E48BA",
       "sources": [
         {
@@ -402,7 +402,7 @@
       "releaseDate": "Oct 7, 2025",
       "releaseDateIso": "2025-10-07",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "47F67C0F88B46C5EE80816804DA1EB651069AD17B7A664CD152294F0BAC34155",
       "sources": [
         {
@@ -449,7 +449,7 @@
       "releaseDate": "Oct 1, 2025",
       "releaseDateIso": "2025-10-01",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "50C74D1FB8B31FA84D32A4912198CDAEA08A33EFF8A4E745C0C125247A2F5BF9",
       "sources": [
         {
@@ -498,7 +498,7 @@
       "releaseDate": "Sep 23, 2025",
       "releaseDateIso": "2025-09-23",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "4D1FBBFB0ABD720393700C39A665F2458A2BA62A3E7796E5206DCC6DC364700B",
       "sources": [
         {
@@ -545,7 +545,7 @@
       "releaseDate": "Sep 10, 2025",
       "releaseDateIso": "2025-09-10",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "35FD1792A66B5F28EDB207E16D28449844A9995A791BC84E034FBAF1E91336E2",
       "sources": [
         {
@@ -592,7 +592,7 @@
       "releaseDate": "Aug 26, 2025",
       "releaseDateIso": "2025-08-26",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "C615CDA00D5437D297C3F51922587D0CFFD302918F612C4A08578F1922265403",
       "sources": [
         {
@@ -641,7 +641,7 @@
       "releaseDate": "Aug 22, 2025",
       "releaseDateIso": "2025-08-22",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "68986D0F954E727C4080DD81A98C57ED0DB00947E26EF28A8A1D3480132A12D1",
       "sources": [
         {
@@ -688,7 +688,7 @@
       "releaseDate": "Aug 8, 2025",
       "releaseDateIso": "2025-08-08",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "C83CEA596B7C244D816D85A03E55393B66A9C22104BB5A58A6E3AA4684EF08C0",
       "sources": [
         {
@@ -737,7 +737,7 @@
       "releaseDate": "Aug 6, 2025",
       "releaseDateIso": "2025-08-06",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "4AAC97480BD07D3B35A99076344959A850651921B628D1D6046B51FCD6AEEBFD",
       "sources": [
         {
@@ -781,7 +781,7 @@
       "releaseDate": "Jul 22, 2025",
       "releaseDateIso": "2025-07-22",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {
@@ -827,7 +827,7 @@
       "releaseDate": "Jun 27, 2025",
       "releaseDateIso": "2025-06-27",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {
@@ -873,7 +873,7 @@
       "releaseDate": "Jun 9, 2025",
       "releaseDateIso": "2025-06-09",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {
@@ -917,7 +917,7 @@
       "releaseDate": "Jun 5, 2025",
       "releaseDateIso": "2025-06-05",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {
@@ -961,7 +961,7 @@
       "releaseDate": "Jun 3, 2025",
       "releaseDateIso": "2025-06-03",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {
@@ -1007,7 +1007,7 @@
       "releaseDate": "May 30, 2025",
       "releaseDateIso": "2025-05-30",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {
@@ -1051,7 +1051,7 @@
       "releaseDate": "May 23, 2025",
       "releaseDateIso": "2025-05-23",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {
@@ -1091,7 +1091,7 @@
       "releaseDate": "May 9, 2025",
       "releaseDateIso": "2025-05-09",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {
@@ -1137,7 +1137,7 @@
       "releaseDate": "May 2, 2025",
       "releaseDateIso": "2025-05-02",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {
@@ -1181,7 +1181,7 @@
       "releaseDate": "Apr 25, 2025",
       "releaseDateIso": "2025-04-25",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {
@@ -1227,7 +1227,7 @@
       "releaseDate": "Apr 23, 2025",
       "releaseDateIso": "2025-04-23",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {
@@ -1273,7 +1273,7 @@
       "releaseDate": "Apr 8, 2025",
       "releaseDateIso": "2025-04-08",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {

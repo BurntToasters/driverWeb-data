@@ -33,7 +33,7 @@
       "releaseDate": "Feb 11, 2026",
       "releaseDateIso": "2026-02-11",
       "releaseNotesUrl": "https://www.intel.com/content/www/us/en/download/741626/intel-arc-pro-graphics-windows.html",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "EA438576B6058F1DC062F5DD20CD7F14EBD9365F14B9FF5FEAB15FD5246DF70E",
       "sources": [
         {
@@ -86,7 +86,7 @@
       "releaseDate": "Sep 03, 2025",
       "releaseDateIso": "2025-09-03",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "60B5E79C7372394E72714DE1F20CC234E42045EA9CECB16746914BBD1A9E8CE9",
       "sources": [
         {
@@ -128,7 +128,7 @@
       "releaseDate": "Jul 08, 2025",
       "releaseDateIso": "2025-07-08",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {
@@ -170,7 +170,7 @@
       "releaseDate": "Mar 27, 2025",
       "releaseDateIso": "2025-03-27",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {
@@ -212,7 +212,7 @@
       "releaseDate": "Jan 30, 2025",
       "releaseDateIso": "2025-01-30",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {
@@ -254,7 +254,7 @@
       "releaseDate": "Dec 20, 2024",
       "releaseDateIso": "2024-12-20",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {
@@ -296,7 +296,7 @@
       "releaseDate": "Sep 20, 2024",
       "releaseDateIso": "2024-09-20",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {
@@ -338,7 +338,7 @@
       "releaseDate": "Jun 28, 2024",
       "releaseDateIso": "2024-06-28",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {
@@ -380,7 +380,7 @@
       "releaseDate": "Mar 28, 2024",
       "releaseDateIso": "2024-03-28",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {
@@ -422,7 +422,7 @@
       "releaseDate": "Mar 8, 2024",
       "releaseDateIso": "2024-03-08",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {
@@ -464,7 +464,7 @@
       "releaseDate": "Dec 21, 2023",
       "releaseDateIso": "2023-12-21",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {

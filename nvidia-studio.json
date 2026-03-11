@@ -34,7 +34,7 @@
       "releaseDate": "Mar 10, 2026",
       "releaseDateIso": "2026-03-10",
       "releaseNotesUrl": "https://us.download.nvidia.com/Windows/595.79/595.79-win10-win11-nsd-release-notes.pdf",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "65E47A5014CDE788A5251BB277B0E83E39D3AE6079F4080C1A351208145008D1",
       "sources": [
         {
@@ -94,7 +94,7 @@
       "releaseDate": "Jan 05, 2026",
       "releaseDateIso": "2026-01-05",
       "releaseNotesUrl": "https://us.download.nvidia.com/Windows/591.74/591.74-win10-win11-nsd-release-notes.pdf",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "7CD7C3AD1CFA462307D4F7DF13251D311AABB51845E63C0996FD6721354B0EBA",
       "sources": [
         {
@@ -154,7 +154,7 @@
       "releaseDate": "Dec 04, 2025",
       "releaseDateIso": "2025-12-04",
       "releaseNotesUrl": "https://us.download.nvidia.com/Windows/591.44/591.44-win10-win11-nsd-release-notes.pdf",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "4783C070E2B05BE6FB6AAA8BF02F8A8A16760ACDDB6A80E63D2A6F7010095D1E",
       "sources": [
         {
@@ -212,7 +212,7 @@
       "releaseDate": "Oct 14, 2025",
       "releaseDateIso": "2025-10-14",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "D0934BE8E381BA29913C8D718F108232B2AC685F314CB02510672DEE3E746904",
       "sources": [
         {
@@ -262,7 +262,7 @@
       "releaseDate": "Sep 10, 2025",
       "releaseDateIso": "2025-09-10",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "002E46DAFFED8C89F09325397839739D49F12594260A0990BC601FBEB3155CB4",
       "sources": [
         {
@@ -312,7 +312,7 @@
       "releaseDate": "Aug 12, 2025",
       "releaseDateIso": "2025-08-12",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "C76135FAB7562A7AEA589586A09C3A8C4776C09370CAEB59615BCCC029166FC0",
       "sources": [
         {
@@ -362,7 +362,7 @@
       "releaseDate": "Jul 22, 2025",
       "releaseDateIso": "2025-07-22",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "DF1DAB1D45BF80ABB6CB3509572E8B8F9930F4725399B058141A88BFA25D69F9",
       "sources": [
         {
@@ -409,7 +409,7 @@
       "releaseDate": "Jun 17, 2025",
       "releaseDateIso": "2025-06-17",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {
@@ -456,7 +456,7 @@
       "releaseDate": "May 19, 2025",
       "releaseDateIso": "2025-05-19",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {
@@ -730,7 +730,7 @@
       "releaseDate": "Nov 12, 2024",
       "releaseDateIso": "2024-11-12",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {
@@ -777,7 +777,7 @@
       "releaseDate": "Oct 15, 2024",
       "releaseDateIso": "2024-10-15",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {
@@ -824,7 +824,7 @@
       "releaseDate": "Sep 17, 2024",
       "releaseDateIso": "2024-09-17",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {
@@ -871,7 +871,7 @@
       "releaseDate": "Aug 06, 2024",
       "releaseDateIso": "2024-08-06",
       "releaseNotesUrl": "",
-      "riskLevel": "medium",
+      "riskLevel": "low",
       "sha256sum": "",
       "sources": [
         {
