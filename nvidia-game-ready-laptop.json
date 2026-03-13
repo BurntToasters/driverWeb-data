@@ -215,7 +215,7 @@
       "releaseDate": "Jan 05, 2026",
       "releaseDateIso": "2026-01-05",
       "releaseNotesUrl": "https://us.download.nvidia.com/Windows/591.74/591.74-win11-win10-release-notes.pdf",
-      "riskLevel": "low",
+      "riskLevel": "medium",
       "sha256sum": "FDD72E867B193A35BD35A317ABD9F3C29CCA7469824BE857942BDCE709F66583",
       "sources": [
         {
@@ -239,7 +239,7 @@
           "url": "https://us.download.nvidia.com/Windows/591.74/591.74-notebook-win10-win11-64bit-international-dch-whql.exe"
         }
       ],
-      "stabilityGrade": "A",
+      "stabilityGrade": "B",
       "supersededBy": "",
       "supersedes": "",
       "type": "WHQL",
