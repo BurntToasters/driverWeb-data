@@ -4,6 +4,6 @@
 # SCHEMA is used for the structure of this file (JSON).
 # DriverWeb_version marks the version of DriverWeb that this package is compatible with.
 # ====================================================================================== #
-DATA_VERSION: 2026.11.03
+DATA_VERSION: 2026.30.6
 SCHEMA: 2.0
-DriverWeb_version: v5
+DriverWeb_version: v6
