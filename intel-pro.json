@@ -1,7 +1,117 @@
 {
-  "lastUpdated": "02-11-26",
+  "lastUpdated": "06-30-26",
   "warningMessage": "Note: Currently with the Arc Pro drivers, I am unable to find community threads on these versions, hence why there is no reddit/external community link on these.",
   "drivers": [
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "pro",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "6797E88AC8AA6B66FC87078FCD695C03E9FA127E38D4666439AE6082B56042FC"
+      },
+      "downloadUrl": "https://downloadmirror.intel.com/922892/gfx_win_101.8804.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "Professional certified branch"
+      ],
+      "id": "intel|graphics|pro|32-0-101-8804|20260630",
+      "isStable": false,
+      "issueTags": [
+        "known-issues"
+      ],
+      "knownIssuesUrl": "https://www.intel.com/content/www/us/en/download/741626/intel-arc-pro-graphics-windows.html",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2026-06-30T07:00:00.000Z",
+      "redditUrl": "",
+      "releaseDate": "Jun 30, 2026",
+      "releaseDateIso": "2026-06-30",
+      "releaseNotesUrl": "https://www.intel.com/content/www/us/en/download/741626/intel-arc-pro-graphics-windows.html",
+      "riskLevel": "low",
+      "sha256sum": "6797E88AC8AA6B66FC87078FCD695C03E9FA127E38D4666439AE6082B56042FC",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/922892/gfx_win_101.8804.exe"
+        },
+        {
+          "type": "release-notes",
+          "url": "https://www.intel.com/content/www/us/en/download/741626/intel-arc-pro-graphics-windows.html"
+        },
+        {
+          "type": "known-issues",
+          "url": "https://www.intel.com/content/www/us/en/download/741626/intel-arc-pro-graphics-windows.html"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "",
+      "vendor": "intel",
+      "version": "32.0.101.8804",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "pro",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "77D7BC12381F1700CFF317EE002FABC6A09D0CE3A8E25895ED6FCBD98CF854A4"
+      },
+      "downloadUrl": "https://downloadmirror.intel.com/916141/gfx_win_101.8515.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "Professional certified branch"
+      ],
+      "id": "intel|graphics|pro|32-0-101-8515|20260325",
+      "isStable": false,
+      "issueTags": [
+        "known-issues"
+      ],
+      "knownIssuesUrl": "https://www.intel.com/content/www/us/en/download/741626/916141/intel-arc-pro-graphics-windows.html",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2026-03-25T07:00:00.000Z",
+      "redditUrl": "",
+      "releaseDate": "Mar 25, 2026",
+      "releaseDateIso": "2026-03-25",
+      "releaseNotesUrl": "https://www.intel.com/content/www/us/en/download/741626/916141/intel-arc-pro-graphics-windows.html",
+      "riskLevel": "low",
+      "sha256sum": "77D7BC12381F1700CFF317EE002FABC6A09D0CE3A8E25895ED6FCBD98CF854A4",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://downloadmirror.intel.com/916141/gfx_win_101.8515.exe"
+        },
+        {
+          "type": "release-notes",
+          "url": "https://www.intel.com/content/www/us/en/download/741626/916141/intel-arc-pro-graphics-windows.html"
+        },
+        {
+          "type": "known-issues",
+          "url": "https://www.intel.com/content/www/us/en/download/741626/916141/intel-arc-pro-graphics-windows.html"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "",
+      "vendor": "intel",
+      "version": "32.0.101.8515",
+      "warningUrl": ""
+    },
     {
       "architectures": [
         "x64"
