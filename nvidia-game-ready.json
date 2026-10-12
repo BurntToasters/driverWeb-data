@@ -1,7 +1,399 @@
 {
-  "lastUpdated": "06-16-26",
+  "lastUpdated": "10-06-26",
   "warningMessage": "Nvidia drivers <a href=\"https://youtu.be/KrCEPX47vtw\" target=\"_blank\">576.02</a> and ones based on the 572.xx versions have known <a href=\"https://youtu.be/NTXoUsdSAnA\" target=\"_blank\"><u>instability issues</u></a>. It is recommended to install 566.36 or lower for stability.",
   "drivers": [
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "F115C92760F1D677AE88F7EE114BE20C10EF28A9E725736821A08218054867CA"
+      },
+      "downloadUrl": "https://us.download.nvidia.com/Windows/617.42/617.42-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|617-42|whql|20261006",
+      "isStable": false,
+      "issueTags": [
+        "known-issues"
+      ],
+      "knownIssuesUrl": "https://us.download.nvidia.com/Windows/617.42/617.42-win11-win10-release-notes.pdf",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2026-10-06T07:00:00.000Z",
+      "redditUrl": "",
+      "releaseDate": "Oct 6, 2026",
+      "releaseDateIso": "2026-10-06",
+      "releaseNotesUrl": "https://us.download.nvidia.com/Windows/617.42/617.42-win11-win10-release-notes.pdf",
+      "riskLevel": "low",
+      "sha256sum": "F115C92760F1D677AE88F7EE114BE20C10EF28A9E725736821A08218054867CA",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/617.42/617.42-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "release-notes",
+          "url": "https://us.download.nvidia.com/Windows/617.42/617.42-win11-win10-release-notes.pdf"
+        },
+        {
+          "type": "known-issues",
+          "url": "https://us.download.nvidia.com/Windows/617.42/617.42-win11-win10-release-notes.pdf"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "617.42",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "63D3DA5ED52547BF3FD86204BB9EA1455947B24E2AA2519F359126F9A6EFE13F"
+      },
+      "downloadUrl": "https://us.download.nvidia.com/Windows/617.14/617.14-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|617-14|whql|20260922",
+      "isStable": false,
+      "issueTags": [
+        "known-issues"
+      ],
+      "knownIssuesUrl": "https://us.download.nvidia.com/Windows/617.14/617.14-win11-win10-release-notes.pdf",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2026-09-22T07:00:00.000Z",
+      "redditUrl": "",
+      "releaseDate": "Sep 22, 2026",
+      "releaseDateIso": "2026-09-22",
+      "releaseNotesUrl": "https://us.download.nvidia.com/Windows/617.14/617.14-win11-win10-release-notes.pdf",
+      "riskLevel": "low",
+      "sha256sum": "63D3DA5ED52547BF3FD86204BB9EA1455947B24E2AA2519F359126F9A6EFE13F",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/617.14/617.14-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "release-notes",
+          "url": "https://us.download.nvidia.com/Windows/617.14/617.14-win11-win10-release-notes.pdf"
+        },
+        {
+          "type": "known-issues",
+          "url": "https://us.download.nvidia.com/Windows/617.14/617.14-win11-win10-release-notes.pdf"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "617.14",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "61F117423E8AEB5A966325030DFCD5379912990119A8E7F40D78DD6513B58B6A"
+      },
+      "downloadUrl": "https://us.download.nvidia.com/Windows/616.92/616.92-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|616-92|whql|20260909",
+      "isStable": false,
+      "issueTags": [
+        "known-issues"
+      ],
+      "knownIssuesUrl": "https://us.download.nvidia.com/Windows/616.92/616.92-win11-win10-release-notes.pdf",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2026-09-09T07:00:00.000Z",
+      "redditUrl": "",
+      "releaseDate": "Sep 9, 2026",
+      "releaseDateIso": "2026-09-09",
+      "releaseNotesUrl": "https://us.download.nvidia.com/Windows/616.92/616.92-win11-win10-release-notes.pdf",
+      "riskLevel": "low",
+      "sha256sum": "61F117423E8AEB5A966325030DFCD5379912990119A8E7F40D78DD6513B58B6A",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/616.92/616.92-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "release-notes",
+          "url": "https://us.download.nvidia.com/Windows/616.92/616.92-win11-win10-release-notes.pdf"
+        },
+        {
+          "type": "known-issues",
+          "url": "https://us.download.nvidia.com/Windows/616.92/616.92-win11-win10-release-notes.pdf"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "616.92",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "36584E5DF1DC048DF5C677E9591295B96B870E7A6A0AD1461457B89DE8BC1B37"
+      },
+      "downloadUrl": "https://us.download.nvidia.com/Windows/616.64/616.64-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|616-64|whql|20260903",
+      "isStable": false,
+      "issueTags": [
+        "known-issues"
+      ],
+      "knownIssuesUrl": "https://us.download.nvidia.com/Windows/616.64/616.64-win11-win10-release-notes.pdf",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2026-09-03T07:00:00.000Z",
+      "redditUrl": "",
+      "releaseDate": "Sep 3, 2026",
+      "releaseDateIso": "2026-09-03",
+      "releaseNotesUrl": "https://us.download.nvidia.com/Windows/616.64/616.64-win11-win10-release-notes.pdf",
+      "riskLevel": "low",
+      "sha256sum": "36584E5DF1DC048DF5C677E9591295B96B870E7A6A0AD1461457B89DE8BC1B37",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/616.64/616.64-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "release-notes",
+          "url": "https://us.download.nvidia.com/Windows/616.64/616.64-win11-win10-release-notes.pdf"
+        },
+        {
+          "type": "known-issues",
+          "url": "https://us.download.nvidia.com/Windows/616.64/616.64-win11-win10-release-notes.pdf"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "616.64",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "DA50178DEF40A17C40D7B4622003B2073EFD20C9422D0BB707BC7E59E8CC4868"
+      },
+      "downloadUrl": "https://us.download.nvidia.com/Windows/616.56/616.56-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|616-56|whql|20260826",
+      "isStable": false,
+      "issueTags": [
+        "known-issues"
+      ],
+      "knownIssuesUrl": "https://us.download.nvidia.com/Windows/616.56/616.56-win11-win10-release-notes.pdf",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2026-08-26T07:00:00.000Z",
+      "redditUrl": "",
+      "releaseDate": "Aug 26, 2026",
+      "releaseDateIso": "2026-08-26",
+      "releaseNotesUrl": "https://us.download.nvidia.com/Windows/616.56/616.56-win11-win10-release-notes.pdf",
+      "riskLevel": "low",
+      "sha256sum": "DA50178DEF40A17C40D7B4622003B2073EFD20C9422D0BB707BC7E59E8CC4868",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/616.56/616.56-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "release-notes",
+          "url": "https://us.download.nvidia.com/Windows/616.56/616.56-win11-win10-release-notes.pdf"
+        },
+        {
+          "type": "known-issues",
+          "url": "https://us.download.nvidia.com/Windows/616.56/616.56-win11-win10-release-notes.pdf"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "616.56",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "576A90C6F6EEA47748DB1DEFCBCA1746C81FE4EB972F3132D30878778CEE0B09"
+      },
+      "downloadUrl": "https://us.download.nvidia.com/Windows/610.88/610.88-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|610-88|whql|20260728",
+      "isStable": false,
+      "issueTags": [
+        "known-issues"
+      ],
+      "knownIssuesUrl": "https://us.download.nvidia.com/Windows/610.88/610.88-win11-win10-release-notes.pdf",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2026-07-28T07:00:00.000Z",
+      "redditUrl": "",
+      "releaseDate": "Jul 28, 2026",
+      "releaseDateIso": "2026-07-28",
+      "releaseNotesUrl": "https://us.download.nvidia.com/Windows/610.88/610.88-win11-win10-release-notes.pdf",
+      "riskLevel": "low",
+      "sha256sum": "576A90C6F6EEA47748DB1DEFCBCA1746C81FE4EB972F3132D30878778CEE0B09",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/610.88/610.88-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "release-notes",
+          "url": "https://us.download.nvidia.com/Windows/610.88/610.88-win11-win10-release-notes.pdf"
+        },
+        {
+          "type": "known-issues",
+          "url": "https://us.download.nvidia.com/Windows/610.88/610.88-win11-win10-release-notes.pdf"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "610.88",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "1D8E5D34CB3AAF2376CF1E15242399F3C288E4AC2E2DE38429F6D254185F5600"
+      },
+      "downloadUrl": "https://us.download.nvidia.com/Windows/610.74/610.74-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "family": "graphics",
+      "hasWarning": false,
+      "highlights": [
+        "WHQL",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics|game-ready|610-74|whql|20260707",
+      "isStable": false,
+      "issueTags": [
+        "known-issues"
+      ],
+      "knownIssuesUrl": "https://us.download.nvidia.com/Windows/610.74/610.74-win11-win10-release-notes.pdf",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2026-07-07T07:00:00.000Z",
+      "redditUrl": "",
+      "releaseDate": "Jul 7, 2026",
+      "releaseDateIso": "2026-07-07",
+      "releaseNotesUrl": "https://us.download.nvidia.com/Windows/610.74/610.74-win11-win10-release-notes.pdf",
+      "riskLevel": "low",
+      "sha256sum": "1D8E5D34CB3AAF2376CF1E15242399F3C288E4AC2E2DE38429F6D254185F5600",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://us.download.nvidia.com/Windows/610.74/610.74-desktop-win10-win11-64bit-international-dch-whql.exe"
+        },
+        {
+          "type": "release-notes",
+          "url": "https://us.download.nvidia.com/Windows/610.74/610.74-win11-win10-release-notes.pdf"
+        },
+        {
+          "type": "known-issues",
+          "url": "https://us.download.nvidia.com/Windows/610.74/610.74-win11-win10-release-notes.pdf"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "WHQL",
+      "vendor": "nvidia",
+      "version": "610.74",
+      "warningUrl": ""
+    },
     {
       "architectures": [
         "x64"
