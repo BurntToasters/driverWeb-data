@@ -1,7 +1,91 @@
 {
-  "lastUpdated": "11-05-25",
+  "lastUpdated": "09-08-26",
   "warningMessage": null,
   "drivers": [
+    {
+      "id": "network|intel|wifi-24.70.0",
+      "vendor": "intel",
+      "family": "network",
+      "channel": "network",
+      "version": "24.70.0",
+      "type": "Intel Wi-Fi Driver",
+      "releaseDate": "2026-09-08",
+      "releaseDateIso": "2026-09-08",
+      "publishedAt": "2026-09-08T07:00:00.000Z",
+      "downloadUrl": "https://www.intel.com/content/www/us/en/download/19351/intel-wireless-wi-fi-drivers-for-windows-10-and-windows-11.html",
+      "releaseNotesUrl": "",
+      "knownIssuesUrl": "",
+      "warningUrl": "",
+      "redditUrl": "",
+      "hasWarning": false,
+      "isStable": true,
+      "stabilityGrade": "A",
+      "riskLevel": "low",
+      "sha256sum": "",
+      "checksum": null,
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://www.intel.com/content/www/us/en/download/19351/intel-wireless-wi-fi-drivers-for-windows-10-and-windows-11.html"
+        }
+      ],
+      "highlights": [
+        "AX2xx and BE2xx platform support"
+      ],
+      "issueTags": [],
+      "supersedes": "",
+      "supersededBy": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "previousVersion": ""
+    },
+    {
+      "id": "network|realtek|1168.30.50.508",
+      "vendor": "realtek",
+      "family": "network",
+      "channel": "network",
+      "version": "1168.30.50.508",
+      "type": "Realtek PCIe GbE Family Controller",
+      "releaseDate": "2026-05-07",
+      "releaseDateIso": "2026-05-07",
+      "publishedAt": "2026-05-07T07:00:00.000Z",
+      "downloadUrl": "https://www.catalog.update.microsoft.com/Search.aspx?q=Realtek%20PCIe%20GbE",
+      "releaseNotesUrl": "",
+      "knownIssuesUrl": "",
+      "warningUrl": "",
+      "redditUrl": "",
+      "hasWarning": false,
+      "isStable": true,
+      "stabilityGrade": "A-",
+      "riskLevel": "low",
+      "sha256sum": "",
+      "checksum": null,
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://www.catalog.update.microsoft.com/Search.aspx?q=Realtek%20PCIe%20GbE"
+        }
+      ],
+      "highlights": [
+        "Desktop LAN controller update"
+      ],
+      "issueTags": [],
+      "supersedes": "",
+      "supersededBy": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "previousVersion": ""
+    },
     {
       "id": "network|intel|wifi-23.60.0",
       "vendor": "intel",
@@ -73,6 +157,48 @@
       ],
       "highlights": [
         "Desktop LAN controller update"
+      ],
+      "issueTags": [],
+      "supersedes": "",
+      "supersededBy": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "previousVersion": ""
+    },
+    {
+      "id": "network|broadcom|221.0.8.0",
+      "vendor": "broadcom",
+      "family": "network",
+      "channel": "network",
+      "version": "221.0.8.0",
+      "type": "Broadcom NetXtreme",
+      "releaseDate": "2025-07-03",
+      "releaseDateIso": "2025-07-03",
+      "publishedAt": "2025-07-03T07:00:00.000Z",
+      "downloadUrl": "https://www.catalog.update.microsoft.com/Search.aspx?q=Broadcom%20NetXtreme",
+      "releaseNotesUrl": "",
+      "knownIssuesUrl": "",
+      "warningUrl": "",
+      "redditUrl": "",
+      "hasWarning": false,
+      "isStable": true,
+      "stabilityGrade": "A-",
+      "riskLevel": "low",
+      "sha256sum": "",
+      "checksum": null,
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://www.catalog.update.microsoft.com/Search.aspx?q=Broadcom%20NetXtreme"
+        }
+      ],
+      "highlights": [
+        "Enterprise-oriented ethernet stack"
       ],
       "issueTags": [],
       "supersedes": "",

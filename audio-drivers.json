@@ -1,7 +1,92 @@
 {
-  "lastUpdated": "10-01-25",
+  "lastUpdated": "07-27-26",
   "warningMessage": null,
   "drivers": [
+    {
+      "id": "audio|realtek|uhd-6.0.10023.1",
+      "vendor": "realtek",
+      "family": "audio",
+      "channel": "audio",
+      "version": "UAD 6.0.10023.1",
+      "type": "Realtek HD Audio",
+      "releaseDate": "2026-07-27",
+      "releaseDateIso": "2026-07-27",
+      "publishedAt": "2026-07-27T07:00:00.000Z",
+      "downloadUrl": "https://www.catalog.update.microsoft.com/Search.aspx?q=realtek%20audio",
+      "releaseNotesUrl": "",
+      "knownIssuesUrl": "",
+      "warningUrl": "",
+      "redditUrl": "",
+      "hasWarning": false,
+      "isStable": true,
+      "stabilityGrade": "A",
+      "riskLevel": "low",
+      "sha256sum": "",
+      "checksum": null,
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://www.catalog.update.microsoft.com/Search.aspx?q=realtek%20audio"
+        }
+      ],
+      "highlights": [
+        "Universal Audio Driver branch",
+        "Designed for Windows 10 and 11"
+      ],
+      "issueTags": [],
+      "supersedes": "",
+      "supersededBy": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "previousVersion": ""
+    },
+    {
+      "id": "audio|intel|smart-sound-20.43.12784.6",
+      "vendor": "intel",
+      "family": "audio",
+      "channel": "audio",
+      "version": "20.43.12784.6",
+      "type": "Intel Smart Sound Technology",
+      "releaseDate": "2026-05-21",
+      "releaseDateIso": "2026-05-21",
+      "publishedAt": "2026-05-21T07:00:00.000Z",
+      "downloadUrl": "https://www.intel.com/content/www/us/en/search.html?ws=text#q=smart%20sound%20technology%20driver",
+      "releaseNotesUrl": "",
+      "knownIssuesUrl": "",
+      "warningUrl": "",
+      "redditUrl": "",
+      "hasWarning": false,
+      "isStable": true,
+      "stabilityGrade": "A-",
+      "riskLevel": "low",
+      "sha256sum": "",
+      "checksum": null,
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://www.intel.com/content/www/us/en/search.html?ws=text#q=smart%20sound%20technology%20driver"
+        }
+      ],
+      "highlights": [
+        "Laptop-focused audio DSP stack"
+      ],
+      "issueTags": [],
+      "supersedes": "",
+      "supersededBy": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "previousVersion": ""
+    },
     {
       "id": "audio|realtek|uhd-6.0.9800.1",
       "vendor": "realtek",
