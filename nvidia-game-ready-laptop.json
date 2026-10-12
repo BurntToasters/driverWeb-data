@@ -30,7 +30,7 @@
       ],
       "previousVersion": "",
       "publishedAt": "2026-10-06T07:00:00.000Z",
-      "redditUrl": "",
+      "redditUrl": "https://redd.it/1wz575x",
       "releaseDate": "Oct 6, 2026",
       "releaseDateIso": "2026-10-06",
       "releaseNotesUrl": "https://us.download.nvidia.com/Windows/617.42/617.42-win11-win10-release-notes.pdf",
@@ -48,6 +48,10 @@
         {
           "type": "known-issues",
           "url": "https://us.download.nvidia.com/Windows/617.42/617.42-win11-win10-release-notes.pdf"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1wz575x"
         }
       ],
       "stabilityGrade": "",
@@ -86,7 +90,7 @@
       ],
       "previousVersion": "",
       "publishedAt": "2026-09-22T07:00:00.000Z",
-      "redditUrl": "",
+      "redditUrl": "https://redd.it/1wn9cdj",
       "releaseDate": "Sep 22, 2026",
       "releaseDateIso": "2026-09-22",
       "releaseNotesUrl": "https://us.download.nvidia.com/Windows/617.14/617.14-win11-win10-release-notes.pdf",
@@ -104,6 +108,10 @@
         {
           "type": "known-issues",
           "url": "https://us.download.nvidia.com/Windows/617.14/617.14-win11-win10-release-notes.pdf"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1wn9cdj"
         }
       ],
       "stabilityGrade": "",
@@ -142,7 +150,7 @@
       ],
       "previousVersion": "",
       "publishedAt": "2026-09-09T07:00:00.000Z",
-      "redditUrl": "",
+      "redditUrl": "https://redd.it/1wbl39w",
       "releaseDate": "Sep 9, 2026",
       "releaseDateIso": "2026-09-09",
       "releaseNotesUrl": "https://us.download.nvidia.com/Windows/616.92/616.92-win11-win10-release-notes.pdf",
@@ -160,6 +168,10 @@
         {
           "type": "known-issues",
           "url": "https://us.download.nvidia.com/Windows/616.92/616.92-win11-win10-release-notes.pdf"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1wbl39w"
         }
       ],
       "stabilityGrade": "",
@@ -168,6 +180,53 @@
       "type": "WHQL",
       "vendor": "nvidia",
       "version": "616.92",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": null,
+      "downloadUrl": "https://international.download.nvidia.com/Windows/616.86hf/616.86-desktop-notebook-win10-win11-64bit-international-dch.hf.exe",
+      "family": "graphics-laptop",
+      "hasWarning": false,
+      "highlights": [
+        "HOTFIX",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics-laptop|game-ready|616-86|hotfix|20260904",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2026-09-04T07:00:00.000Z",
+      "redditUrl": "https://redd.it/1w7jrk4",
+      "releaseDate": "Sep 4, 2026",
+      "releaseDateIso": "2026-09-04",
+      "releaseNotesUrl": "",
+      "riskLevel": "low",
+      "sha256sum": "",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://international.download.nvidia.com/Windows/616.86hf/616.86-desktop-notebook-win10-win11-64bit-international-dch.hf.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1w7jrk4"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "HOTFIX",
+      "vendor": "nvidia",
+      "version": "616.86",
       "warningUrl": ""
     },
     {
@@ -198,7 +257,7 @@
       ],
       "previousVersion": "",
       "publishedAt": "2026-09-03T07:00:00.000Z",
-      "redditUrl": "",
+      "redditUrl": "https://redd.it/1w6uhxd",
       "releaseDate": "Sep 3, 2026",
       "releaseDateIso": "2026-09-03",
       "releaseNotesUrl": "https://us.download.nvidia.com/Windows/616.64/616.64-win11-win10-release-notes.pdf",
@@ -216,6 +275,10 @@
         {
           "type": "known-issues",
           "url": "https://us.download.nvidia.com/Windows/616.64/616.64-win11-win10-release-notes.pdf"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1w6uhxd"
         }
       ],
       "stabilityGrade": "",
@@ -254,7 +317,7 @@
       ],
       "previousVersion": "",
       "publishedAt": "2026-08-26T07:00:00.000Z",
-      "redditUrl": "",
+      "redditUrl": "https://redd.it/1vyxagw",
       "releaseDate": "Aug 26, 2026",
       "releaseDateIso": "2026-08-26",
       "releaseNotesUrl": "https://us.download.nvidia.com/Windows/616.56/616.56-win11-win10-release-notes.pdf",
@@ -272,6 +335,10 @@
         {
           "type": "known-issues",
           "url": "https://us.download.nvidia.com/Windows/616.56/616.56-win11-win10-release-notes.pdf"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1vyxagw"
         }
       ],
       "stabilityGrade": "",
@@ -310,7 +377,7 @@
       ],
       "previousVersion": "",
       "publishedAt": "2026-07-28T07:00:00.000Z",
-      "redditUrl": "",
+      "redditUrl": "https://redd.it/1v8zbxa",
       "releaseDate": "Jul 28, 2026",
       "releaseDateIso": "2026-07-28",
       "releaseNotesUrl": "https://us.download.nvidia.com/Windows/610.88/610.88-win11-win10-release-notes.pdf",
@@ -328,6 +395,10 @@
         {
           "type": "known-issues",
           "url": "https://us.download.nvidia.com/Windows/610.88/610.88-win11-win10-release-notes.pdf"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1v8zbxa"
         }
       ],
       "stabilityGrade": "",
@@ -336,6 +407,56 @@
       "type": "WHQL",
       "vendor": "nvidia",
       "version": "610.88",
+      "warningUrl": ""
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "channel": "game-ready",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "D9C7458ECF17C666D645CBA6811142BDE4A9430AFE344E53C5CAC8F55E5B8304"
+      },
+      "downloadUrl": "https://international.download.nvidia.com/Windows/610.82hf/610.82-desktop-notebook-win10-win11-64bit-international-dch.hf.exe",
+      "family": "graphics-laptop",
+      "hasWarning": false,
+      "highlights": [
+        "HOTFIX",
+        "Optimized for latest game releases"
+      ],
+      "id": "nvidia|graphics-laptop|game-ready|610-82|hotfix|20260722",
+      "isStable": false,
+      "issueTags": [],
+      "knownIssuesUrl": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "previousVersion": "",
+      "publishedAt": "2026-07-22T07:00:00.000Z",
+      "redditUrl": "https://redd.it/1v3jbrb",
+      "releaseDate": "Jul 22, 2026",
+      "releaseDateIso": "2026-07-22",
+      "releaseNotesUrl": "",
+      "riskLevel": "low",
+      "sha256sum": "D9C7458ECF17C666D645CBA6811142BDE4A9430AFE344E53C5CAC8F55E5B8304",
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://international.download.nvidia.com/Windows/610.82hf/610.82-desktop-notebook-win10-win11-64bit-international-dch.hf.exe"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1v3jbrb"
+        }
+      ],
+      "stabilityGrade": "",
+      "supersededBy": "",
+      "supersedes": "",
+      "type": "HOTFIX",
+      "vendor": "nvidia",
+      "version": "610.82",
       "warningUrl": ""
     },
     {
@@ -366,7 +487,7 @@
       ],
       "previousVersion": "",
       "publishedAt": "2026-07-07T07:00:00.000Z",
-      "redditUrl": "",
+      "redditUrl": "https://redd.it/1upuh8a",
       "releaseDate": "Jul 7, 2026",
       "releaseDateIso": "2026-07-07",
       "releaseNotesUrl": "https://us.download.nvidia.com/Windows/610.74/610.74-win11-win10-release-notes.pdf",
@@ -384,6 +505,10 @@
         {
           "type": "known-issues",
           "url": "https://us.download.nvidia.com/Windows/610.74/610.74-win11-win10-release-notes.pdf"
+        },
+        {
+          "type": "community",
+          "url": "https://redd.it/1upuh8a"
         }
       ],
       "stabilityGrade": "",
