@@ -1,7 +1,50 @@
 {
-  "lastUpdated": "07-27-26",
+  "lastUpdated": "08-20-26",
   "warningMessage": null,
   "drivers": [
+    {
+      "id": "audio|realtek|uhd-6.0.10034.1",
+      "vendor": "realtek",
+      "family": "audio",
+      "channel": "audio",
+      "version": "UAD 6.0.10034.1",
+      "type": "Realtek HD Audio",
+      "releaseDate": "2026-08-20",
+      "releaseDateIso": "2026-08-20",
+      "publishedAt": "2026-08-20T07:00:00.000Z",
+      "downloadUrl": "https://www.catalog.update.microsoft.com/Search.aspx?q=realtek%20audio",
+      "releaseNotesUrl": "",
+      "knownIssuesUrl": "",
+      "warningUrl": "",
+      "redditUrl": "",
+      "hasWarning": false,
+      "isStable": true,
+      "stabilityGrade": "A",
+      "riskLevel": "low",
+      "sha256sum": "",
+      "checksum": null,
+      "sources": [
+        {
+          "type": "download",
+          "url": "https://www.catalog.update.microsoft.com/Search.aspx?q=realtek%20audio"
+        }
+      ],
+      "highlights": [
+        "Universal Audio Driver branch",
+        "Designed for Windows 10 and 11"
+      ],
+      "issueTags": [],
+      "supersedes": "",
+      "supersededBy": "",
+      "osSupport": [
+        "windows-10",
+        "windows-11"
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "previousVersion": ""
+    },
     {
       "id": "audio|realtek|uhd-6.0.10023.1",
       "vendor": "realtek",
